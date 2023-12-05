@@ -1,0 +1,97 @@
+.SummaryEvent {
+  display: table;
+  width: 100%;
+  padding: 1rem 1rem 1rem 0;
+
+  .SummaryEvent__Row {
+    display: table-row;
+    width: 100%;
+
+    .SummaryEvent__Icon {
+      display: table-cell;
+      width: 3.375rem;
+      height: 1.5rem;
+      font-size: 1.4rem;
+      vertical-align: top;
+      text-align: center;
+    }
+    .SummaryEvent__Description {
+      display: table-cell;
+      line-height: 1.6rem;
+
+      .SummaryEvent__Value {
+      }
+
+      .SummaryEvent__Airport {
+        font-size: 0.85rem;
+        color: #ffffff;
+      }
+      .SummaryEvent__Bubble {
+        font-size: 0.75rem;
+        color: #424c5c;
+        background: #ffffff;
+      }
+    }
+
+    .SummaryEvent__Date {
+      display: table-cell;
+      font-size: 0.75rem;
+      text-align: right;
+      width: 3rem;
+    }
+    .pay-now-cta {
+      display: block;
+      text-decoration: underline;
+      font-size: 0.75rem;
+    }
+  }
+
+  &.SummaryEvent--Default {
+    color: #ffffff;
+    background: #586374;
+  }
+  &.SummaryEvent--CTA {
+    cursor: pointer;
+  }
+  &.SummaryEvent--Issue {
+    color: #c1c7d4;
+    background: #424c5c;
+
+    .SummaryEvent__Value,
+    .SummaryEvent__Merchant {
+      text-decoration: line-through;
+    }
+  }
+  &.SummaryEvent--Payment {
+    color: #91daf5;
+    background: #2c3644;
+  }
+}
+
+.summaryEventModal_key{
+  color: grey;
+  text-transform: capitalize;
+  font-size: 14px;
+
+}
+.summaryEventModal_value{
+  color: black;
+  font-size:16px;
+
+}
+
+.summaryEventModal_item{
+  padding: 5px;
+}
+
+.summaryEventModal_Title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.summaryEventModal_Title_name{
+  padding: 3px;
+}
+.summaryEvent_item_box{
+  cursor: pointer;
+}

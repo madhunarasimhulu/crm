@@ -1,0 +1,276 @@
+[
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "REGISTERED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Daniel Bonilha",
+        "to_document_number": "30066077800",
+        "to_entity_type": "F",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "REGISTERED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Empresa Ltda",
+        "to_company_name": "Empresa Fantasia Ltda",
+        "to_document_number": "06321654000188",
+        "to_entity_type": "J",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "OVERDUE",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Daniel Bonilha",
+        "to_document_number": "30066077800",
+        "to_entity_type": "F",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "OVERDUE",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Empresa Ltda",
+        "to_company_name": "Empresa Fantasia Ltda",
+        "to_document_number": "06321654000188",
+        "to_entity_type": "J",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "CANCELLED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Daniel Bonilha",
+        "to_document_number": "30066077800",
+        "to_entity_type": "F",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "CANCELLED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Empresa Ltda",
+        "to_company_name": "Empresa Fantasia Ltda",
+        "to_document_number": "06321654000188",
+        "to_entity_type": "J",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "SETTLED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Daniel Bonilha",
+        "to_document_number": "30066077800",
+        "to_entity_type": "F",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::BANKSLIP",
+    "timestamp": "2018-10-02T15:02:28.221Z",
+    "type": "BANKSLIP",
+    "category": "SETTLED",
+    "data": {
+      "item": {
+        "id": 324,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Empresa Ltda",
+        "to_company_name": "Empresa Fantasia Ltda",
+        "to_document_number": "06321654000188",
+        "to_entity_type": "J",
+        "to_phone": "11966665555",
+        "due_date": "2018-10-09",
+        "barcode": "34191.09008  00000.392522  50059.440003  7  76230000001500"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::CASHIN",
+    "timestamp": "2018-10-11T03:02:28.221Z",
+    "type": "CASHIN",
+    "category": "BANKSLIP",
+    "data": {
+      "item": {
+        "id": 8444778,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "bankslip_id": 324,
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000001",
+        "to_check_digit": "8",
+        "to_name": "Daniel Bonilha",
+        "to_document_number": "30066077800",
+        "to_entity_type": "F",
+        "to_phone": "11966665555",
+        "authentication": "dce9e36ca6882bee42fad6d33b61f73d400efbfa",
+        "bankslip_generation_date": "2018-10-02T15:02:28.221Z",
+        "bankslip_accounting_date": "2018-10-10"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  },
+
+  {
+    "tenant_account_timestamp": "b6cb2f26-9bff-4ff3-941e-fd22efb6d069::CASHIN",
+    "timestamp": "2018-10-11T03:02:28.221Z",
+    "type": "CASHIN",
+    "category": "BANKSLIP",
+    "data": {
+      "item": {
+        "id": 8444778,
+        "amount": 100,
+        "context": "BANKSLIP",
+        "bankslip_id": 324,
+        "to_bank": "341",
+        "to_branch": "0500",
+        "to_account_number": "000000004",
+        "to_check_digit": "2",
+        "to_name": "Empresa Ltda",
+        "to_company_name": "Empresa Fantasia Ltda",
+        "to_document_number": "06321654000188",
+        "to_entity_type": "J",
+        "to_phone": "11966665555",
+        "authentication": "dce9e36ca6882bee42fad6d33b61f73d400efbfa",
+        "bankslip_generation_date": "2018-10-02T15:02:28.221Z",
+        "bankslip_accounting_date": "2018-10-10"
+      }
+    },
+    "account_id": 30605,
+    "tenant": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25",
+    "tenant_account": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25::30605"
+  }
+]

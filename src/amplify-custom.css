@@ -1,0 +1,58 @@
+:root, 
+  [data-amplify-authenticator] [data-amplify-router]{
+    border: none;
+    box-shadow: none;
+    /* border-radius: 13px; */
+  }
+
+
+
+
+:root, [data-amplify-theme]{
+  --amplify-components-button-primary-background-color: #FE6F61;
+  --amplify-components-button-primary-hover-background-color:#FA9583
+}
+.amplify-field__show-password{
+  background-color: #F2F5F7;
+  border: none;
+}
+.amplify-field__show-password:focus{
+  border: none;
+}
+:root [data-amplify-router-content]{
+  margin-top: 50px;
+  border-radius: 13px;
+  width: 24rem;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+:root [data-amplify-authenticator-resetpassword]{
+  margin-top: 50px;
+  border-radius: 13px;
+  width: 24rem;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+:root [data-amplify-authenticator-forcenewpassword]{
+  margin-top: 50px;
+  border-radius: 13px;
+  width: 24rem;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+:root [data-amplify-authenticator-verifyuser]{
+  margin-top: 50px;
+  border-radius: 13px;
+  width: 30rem;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+:root [data-amplify-authenticator-confirmverifyuser]{
+  margin-top: 50px;
+  border-radius: 13px;
+  width: 30rem;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+
+#root{
+  height: 100vh;
+}
+.amplify-field__error-message{
+  color: #dd4c4c!important;
+}

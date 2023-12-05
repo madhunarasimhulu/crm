@@ -1,0 +1,39 @@
+.timer-class {
+  color: #ccc;
+  font-size: 40px;
+}
+.modl_ftr {
+  display: flex;
+  flex-direction: row;
+}
+.timer_btn_logout {
+  border-radius: unset;
+  border-color: unset;
+  border: 2px solid #e96b5d !important;
+  color: #e96b5d !important;
+}
+.timer_btn_logout:hover {
+  border: 2px solid #e96b5d !important;
+  border-radius: unset;
+  background-color: unset;
+}
+.timer_btn_keep_me {
+  background-color: #e96b5d !important;
+  border-radius: unset;
+  color: white !important;
+}
+.timer_btn_keep_me:hover {
+  background-color: #e96b5d !important;
+}
+.timeout_dialog .MuiDialogContent-root {
+  padding: unset !important;
+  border-radius: unset;
+  text-align: center;
+}
+.timeout_dialog .MuiDialogContent-MuiPaper-root {
+  border-radius: unset;
+  text-align: center;
+}
+.timeout_dialog .body {
+  padding: 25px;
+}

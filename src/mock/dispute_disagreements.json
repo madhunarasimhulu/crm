@@ -1,0 +1,203 @@
+[
+  {
+    "type": "OPTION",
+    "text": "Quais das opções abaixo se **enquadram melhor?**",
+    "options": [
+      {
+        "text": "recebi a mercadoria e não devolvi",
+        "next": 1
+      },
+      {
+        "text": "recebi a mercadoria e devolvi",
+        "next": 11
+      },
+      {
+        "text": "não recebi a mercadoria",
+        "next": 15
+      }
+    ]
+  },
+  {
+    "type": "DATE",
+    "text": "Quando você **recebeu a mercadoria?**",
+    "options": [],
+    "next": 2
+  },
+  {
+    "type": "DESCRIPTION",
+    "text": "**Por qual motivo você não devolveu a mercadoria?**",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "OPTION",
+    "text": "Você **tentou contato com o estabelecimento** para resolver o problema?",
+    "options": [
+      {
+        "text": "enviei um e-mail",
+        "next": 4
+      },
+      {
+        "text": "fui pessoalmente responder",
+        "next": 4
+      },
+      {
+        "text": "entrei em contato via chat",
+        "next": 4
+      },
+      {
+        "text": "não tentei",
+        "next": 5
+      }
+    ]
+  },
+  {
+    "type": "OPTION",
+    "text": "Qual a **resposta do estabelecimento**?",
+    "options": [
+      {
+        "text": "negou a solicitação",
+        "next": 5
+      },
+      {
+        "text": "atendeu o contato",
+        "next": 5
+      },
+      {
+        "text": "não atendeu o contato",
+        "next": 5
+      }
+    ]
+  },
+  {
+    "type": "OPTION",
+    "text": "Qual o **problema apresentado** com a mercadoria",
+    "options": [
+      {
+        "text": "a mercadoria está com defeito",
+        "next": 6
+      },
+      {
+        "text": "a mercadoria é falsificada",
+        "next": 6
+      },
+      {
+        "text": "a mercadoria não confere com a descrição",
+        "next": 6
+      }
+    ]
+  },
+  {
+    "type": "DESCRIPTION",
+    "text": "**Descreva com suas palavras o problema apresentado.** Aqui é importante que você detalhe o máximo.",
+    "options": [],
+    "next": 7
+  },
+  {
+    "type": "OPTION",
+    "text": "Você solicita **o estorno parcial ou total do valor da transação**?",
+    "options": [
+      {
+        "text": "estorno parcial",
+        "next": 8
+      },
+      {
+        "text": "estorno total",
+        "next": 9
+      }
+    ]
+  },
+  {
+    "type": "MONEY",
+    "text": "Qual o valor?",
+    "options": [],
+    "next": 9
+  },
+  {
+    "type": "CAMERA",
+    "text": "Para continuar, **precisamos de um documento que comprove o problema que você está nos reportando**\nEsses documentos podem ser e-mails, fotos do produto, fotos do comprovantes de compra. É importante conter seus dados e os dados do estabelecimento",
+    "options": [],
+    "next": 10
+  },
+  {
+    "type": "SUCCESS",
+    "text": "Vamos analizar o seu caso e entrar em contato por e-mail. Voltamos em breve com mais informações.",
+    "options": []
+  },
+  {
+    "type": "DATE",
+    "text": "Quando você **recebeu a mercadoria?**",
+    "options": [],
+    "next": 12
+  },
+  {
+    "type": "DESCRIPTION",
+    "text": "**Descreva com suas palavras produto devolvido.** Aqui é importante que você detalhe ao máximo.",
+    "options": [],
+    "next": 13
+  },
+  {
+    "type": "OPTION",
+    "text": "**De que forma devolveu** a mercadoria?",
+    "options": [
+      {
+        "text": "devolvi no estabelecimento",
+        "next": 3
+      },
+      {
+        "text": "devolvi pelos correios",
+        "next": 14
+      },
+      {
+        "text": "o estabelecimento retirou a mercadoria",
+        "next": 3
+      }
+    ]
+  },
+  {
+    "type": "DESCRIPTION",
+    "text": "**Insira o código de rastreio dos correios.**",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "OPTION",
+    "text": "Você **tentou contato com o estabelecimento** para resolver o problema?",
+    "options": [
+      {
+        "text": "enviei um e-mail",
+        "next": 16
+      },
+      {
+        "text": "fui pessoalmente responder",
+        "next": 16
+      },
+      {
+        "text": "entrei em contato via chat",
+        "next": 16
+      },
+      {
+        "text": "não tentei",
+        "next": 7
+      }
+    ]
+  },
+  {
+    "type": "OPTION",
+    "text": "Qual a **resposta do estabelecimento**?",
+    "options": [
+      {
+        "text": "negou a solicitação",
+        "next": 7
+      },
+      {
+        "text": "atendeu o contato",
+        "next": 7
+      },
+      {
+        "text": "não atendeu o contato",
+        "next": 7
+      }
+    ]
+  }
+]

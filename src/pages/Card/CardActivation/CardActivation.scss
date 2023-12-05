@@ -1,0 +1,481 @@
+.card-activation-modal {
+  margin-top: 40px;
+  @media only screen and (max-height: 660px) {
+    overflow: scroll;
+  }
+  @media only screen and (max-width: 370px) {
+    overflow: scroll;
+  }
+  .card-activation-scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .email-modalText {
+    color: #777777;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 600;
+    @media only screen and (max-width: 660px) {
+      margin-bottom: 1rem;
+    }
+  }
+  .modalText {
+    color: #777777;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    font-weight: 900;
+    @media only screen and (max-width: 660px) {
+      margin-bottom: 1rem;
+    }
+  }
+  .modalTextLTC {
+    @extend .modalText;
+    text-align-last: center;
+    max-width: 535px;
+    font-weight: 500;
+  }
+  .modalTextLg {
+    margin: 32px 0px;
+  }
+  .modal-close-btn {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    max-width: 42px;
+    padding: 4px;
+  }
+  .CardVerfBoxes {
+    display: flex;
+    gap: 4rem;
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+  .card-activation-container {
+    position: absolute;
+    background: #fafafa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4;
+    padding-top: 14px;
+    min-width: 540px;
+    max-height: 90%;
+    @media only screen and (max-width: 800px) {
+      min-width: 300px;
+    }
+
+    .card-activation-title {
+      padding: 6px 32px 24px;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.4rem;
+      }
+    }
+    .card-activation-title-lg {
+      padding: 32px 32px 16px 32px;
+    }
+  }
+
+  .card-activation-form {
+    display: flex;
+    .card-activation-input {
+      display: flex;
+      align-items: center;
+      input {
+        font-size: 34px;
+        height: 60px;
+        width: 60px;
+        background-color: #d9d9d9;
+        text-align: center;
+        border-radius: 10px;
+
+        @media only screen and (max-width: 800px) {
+          font-size: 18px;
+          height: 30px;
+          width: 30px;
+        }
+      }
+      .card-activation-gap {
+        min-width: 13px;
+        min-height: 2px;
+        background-color: #d9d9d9;
+        content: '';
+        margin: 0px 5px;
+      }
+      .card-activation-gap-hash {
+        @extend .card-activation-gap;
+        transform: rotate(125deg);
+        margin: 0px 8px;
+      }
+    }
+  }
+
+  .NewAddressVerForm {
+    margin-bottom: 2rem;
+    .labelText {
+      line-height: unset;
+      margin-bottom: 10px;
+      color: #777777;
+      font-size: 14px;
+    }
+    .addressTypeGroup {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+      padding: 3px;
+      .addressType {
+        width: 30%;
+        padding: 16px 2px;
+        cursor: pointer;
+      }
+      .addressTypeActive {
+        background-color: #ffffff;
+        border-radius: 20px;
+      }
+      @media only screen and (max-width: 800px) {
+        flex-direction: column;
+        .addressType {
+          width: 100%;
+        }
+      }
+    }
+    .select-state {
+      background-color: #d9d9d9;
+      height: 52px;
+      font-size: 1.2rem;
+      padding-left: 18px;
+      padding-right: 18px;
+      width: 100%;
+    }
+    input[type='text'] {
+      @extend .select-state;
+    }
+    .addressVerMainGroup {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 2rem;
+      width: 100%;
+      .addressVerSubGroup {
+        padding-top: 24px;
+        width: 30%;
+      }
+      .select-state-group {
+        padding-top: 24px;
+        width: calc(70% - 2rem);
+      }
+      @media only screen and (max-width: 800px) {
+        flex-wrap: wrap;
+        gap: 0rem;
+        .addressVerSubGroup {
+          width: 100%;
+        }
+        .select-state {
+          width: 100%;
+        }
+        .select-state-group {
+          width: 100%;
+        }
+        input[type='text'] {
+          width: 100%;
+        }
+      }
+    }
+    .w-30 {
+      width: 30%;
+    }
+    .w-100 {
+      width: 100%;
+    }
+    .mailingAddress {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18px;
+      height: 100%;
+      align-items: end;
+      @media only screen and (max-width: 800px) {
+        align-items: flex-start;
+      }
+    }
+    .mailingAddressGroup {
+      align-items: flex-start;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .addressCard {
+    padding: 18px 12px;
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin: 16px 0px;
+    justify-content: center;
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    .addressCardText {
+      padding: 0px 25px;
+      max-height: 150px;
+      @extend .card-activation-scroll;
+      .addressCardfont {
+        font-size: 18px;
+        @media only screen and (max-width: 800px) {
+          font-size: 16px;
+        }
+      }
+    }
+    .addressCardImg {
+      height: 50px;
+      width: 55px;
+      @media only screen and (max-width: 800px) {
+        height: 35px;
+        width: 40px;
+      }
+    }
+  }
+  // .addressVerf-checkbox {
+  //   width: 20px;
+  //   height: 20px;
+  //   border-radius: 5px;
+  // }
+  .setPINcard {
+    input {
+      font-size: 28px;
+      height: 52px;
+      width: 180px;
+      background-color: #d9d9d9;
+      text-align: center;
+      border-radius: 15px;
+      margin: 0px 120px 24px;
+      letter-spacing: 4px;
+    }
+    .pin-field {
+      margin-bottom: 52px;
+    }
+    @media only screen and (max-width: 800px) {
+      input {
+        font-size: 18px;
+        height: 30px;
+        width: 120px;
+        border-radius: 8px;
+        margin: 0px 80px 14px;
+      }
+      .pin-field {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  .email-reg{
+    // background-color: red;
+    // .MuiBox-root-54{
+    //   margin-top:0px
+    // }
+    // .MuiBox-root-4{
+    //   margin-top:1rem!important;
+    //   padding-top: 1px;
+    // }
+    .email-input-dev{
+      display: flex;
+      // justify-content: space-between;
+    }
+    .email-btn{
+      // width:25%;
+      background-color: #ffa945;
+      margin-left:7px;
+      border-radius: 10px;
+      width:100px;
+      height: 52px;
+      // text-align: right;
+      color: white;
+      font-size: 16px;
+
+    }
+    input {
+      // font-size: 28px;
+      height: 52px;
+      width: 475px;
+      background-color: #d9d9d9;
+      padding-left: 10px;
+      border-radius: 10px;
+      // margin: 0px 120px 24px;
+    }
+    input::placeholder{
+      color: black;
+    }
+    .email-field {
+      margin-bottom: 12px;
+    }
+    .emailVerify-btn{
+      align-items: center;
+      display: flex;
+      
+    }
+    .email-error{
+      color: red;
+      margin-bottom: 8px;
+    }
+    .email-verfy{
+      color: grey;
+      margin-bottom: 8px;
+    }
+    .email-otp-error{
+      color: red;
+      margin-top: 20px;
+    }
+    .email-btn-disabled{
+      background-color : #d9d9d9;
+      cursor: auto;
+    }
+  //   input:focus{
+  //     outline: none;
+  //     border-color: red
+  // }
+    @media only screen and (max-width: 800px) {
+      .email-input-dev{
+        display: inline
+      }
+      input {
+        font-size: 14px;
+        height: 50px;
+        width: 100%;
+        border-radius: 10px;
+      }
+      .email-error{
+        color: red;
+        text-align: center;
+        margin-bottom: 8px;
+      }
+      .email-field {
+        margin-bottom: 10px;
+      }
+      input::placeholder{
+      font-size: 14px;
+      }
+     
+      .email-btn{
+        background-color: #ffa945;
+        border-radius: 10px;
+        width:80px;
+        height: 32px;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+  
+      }
+      .emailVerify-btn{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        
+      }
+    }
+  }
+  .setTransChannelsCard {
+    p {
+      font-size: 14px;
+      @media only screen and (max-width: 800px) {
+        font-size: 12px;
+      }
+    }
+    h6 {
+      font-size: 18px;
+      @media only screen and (max-width: 800px) {
+        font-size: 16px;
+      }
+    }
+    .maxW-380 {
+      max-width: 380px;
+    }
+    .transChip {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 260px;
+      margin-bottom: 23px;
+      .transChipInput {
+        cursor: no-drop;
+      }
+      @media only screen and (max-width: 800px) {
+        width: 200px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .btn {
+    margin: 0px;
+    border-radius: 0px;
+    span {
+      text-transform: none;
+      font-size: 20px;
+    }
+    @media only screen and (max-width: 800px) {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+  .btn-blocked {
+    @extend .btn;
+    color: #ffffff;
+    background-color: #768092;
+  }
+  .btn-outlined-active {
+    border: 2px solid #ff9800;
+    span {
+      color: #ff9800;
+    }
+  }
+  .btn-outlined-blocked {
+    border: 2px solid #abaab2;
+    span {
+      color: #abaab2;
+    }
+  }
+  .mb-3 {
+    margin-bottom: 3rem;
+  }
+  .mx-13 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    @media only screen and (max-width: 800px) {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  
+}
+
+.MuiBox-root-217{
+  margin: 0px 40px;
+  @media  (max-width: 800px) {
+    margin: 0px 10px;
+  }
+}
+// .MuiBox-root-2{
+//   margin: 0px 40px;
+//   @media  (max-width: 800px) {
+//     margin: 0px 10px;
+//   }
+// }
+
+// .MuiBox-root-380 {
+//   margin-top: 2.6rem;
+//   @media  (max-width: 800px) {
+//     margin-top: 0%;
+//   }
+// }
+// .MuiBox-root-4{
+//   margin-top: 1rem;
+//   @media  (max-width: 800px) {
+//     margin-top: 0%;
+//   }
+// }

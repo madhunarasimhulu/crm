@@ -1,0 +1,26 @@
+.CreditResume {
+  cursor: pointer;
+
+  .carousel .slide {
+    background: none;
+  }
+  .carousel .control-dots .dot {
+    box-shadow: none;
+  }
+}
+
+.display-block {
+  display: block;
+}
+
+.btn-transfer {
+  background-color: #f5a623;
+  color: white;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 10px 0 5px;
+  width: 60%;
+  cursor: pointer;
+}

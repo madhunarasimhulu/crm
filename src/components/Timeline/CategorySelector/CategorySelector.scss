@@ -1,0 +1,50 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100px; /* Set the desired item width */
+  height: 60px; /* Set the desired item height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Set the default background color */
+  font-size: 14px; /* Set the desired font size */
+}
+
+.carousel-item.active {
+  background-color: #007bff; /* Set the background color for the active category */
+  color: #fff; /* Set the text color for the active category */
+}
+.carousel__item--active {
+  background-color: #4e5868;
+  color: #fff;
+  border-color: #667388;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #ddd;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.carousel-btn.prev {
+  left: 0;
+}
+
+.carousel-btn.next {
+  right: 0;
+}

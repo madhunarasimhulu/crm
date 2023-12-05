@@ -1,0 +1,25 @@
+{
+  "authorization_id": 15989,
+  "account_id": 254,
+  "merchant": {
+    "country": "Brasil",
+    "zip_code": "04350000",
+    "brand_name": "WebPOS",
+    "address": "Rua Taciba",
+    "city": "São Paulo",
+    "phone": "151651651",
+    "name": "Teste dev Front WebPOS",
+    "id": 610,
+    "state": "SP",
+    "email": "devswebpos@pismo.com.br"
+  },
+  "scheduled_items": [
+    {
+      "code": "0000000002",
+      "price": 100,
+      "description": "PF VIP",
+      "id": 55162
+    }
+  ],
+  "customer_id": 511
+}

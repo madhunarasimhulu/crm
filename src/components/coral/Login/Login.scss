@@ -1,0 +1,37 @@
+.LoginP_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+
+  height: 100vh;
+}
+.LoginP_loginbox {
+  width: 24rem;
+  //   height: 60vh;
+  border-radius: 13px;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+.LoginP_box {
+  background-color: #ffffff;
+}
+
+.LoginP_QR {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Login_qr_code {
+  text-overflow: clip;
+  font-size: small;
+}
+
+.Qr_code_ctnr {
+  padding-top: 2rem;
+  display: flex;
+  text-overflow: ellipsis;
+}
+.Login_Recaptcha {
+  text-align: center;
+}

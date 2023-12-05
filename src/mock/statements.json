@@ -1,0 +1,742 @@
+[
+  {
+    "year_due_date": 2018,
+    "months": [
+      {
+        "debits": 57.8,
+        "due_date": "2018-02-28",
+        "current_balance": 57.8,
+        "cicle_closing_date": "2018-02-22",
+        "previous_balance": 0,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": 8.67,
+        "payment_status": "PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 241
+        },
+        "name": "Feb",
+        "month_index": 2,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 431.25,
+        "due_date": "2018-03-28",
+        "current_balance": 431.25,
+        "cicle_closing_date": "2018-03-23",
+        "previous_balance": 57.8,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 57.8,
+        "exchange_rate": null,
+        "minimum_payment": 109.56,
+        "payment_status": "PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 242
+        },
+        "name": "Mar",
+        "month_index": 3,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 441.06,
+        "due_date": "2018-04-28",
+        "current_balance": 440.06,
+        "cicle_closing_date": "2018-04-23",
+        "previous_balance": 431.25,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 432.25,
+        "exchange_rate": null,
+        "minimum_payment": 152,
+        "payment_status": "PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 243
+        },
+        "name": "Apr",
+        "month_index": 4,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 307.22,
+        "due_date": "2018-05-28",
+        "current_balance": 298.29,
+        "cicle_closing_date": "2018-05-23",
+        "previous_balance": 440.06,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 448.99,
+        "exchange_rate": null,
+        "minimum_payment": 75.34,
+        "payment_status": "PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 244
+        },
+        "name": "May",
+        "month_index": 5,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 450.25,
+        "due_date": "2018-06-28",
+        "current_balance": 427.97,
+        "cicle_closing_date": "2018-06-22",
+        "previous_balance": 298.29,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 320.57,
+        "exchange_rate": null,
+        "minimum_payment": 91.97,
+        "payment_status": "PAID",
+        "local_balance": 27.97,
+        "statement": {
+          "id": 245
+        },
+        "name": "Jun",
+        "month_index": 6,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 170.62,
+        "due_date": "2018-07-28",
+        "current_balance": 179.85,
+        "cicle_closing_date": "2018-07-23",
+        "previous_balance": 427.97,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 418.74,
+        "exchange_rate": null,
+        "minimum_payment": 27.97,
+        "payment_status": "NOT_PAID",
+        "local_balance": 151.88,
+        "statement": {
+          "id": 246
+        },
+        "name": "Jul",
+        "month_index": 7,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2018-08-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2018-08-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 247
+        },
+        "name": "Aug",
+        "month_index": 8,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2018-09-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2018-09-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 248
+        },
+        "name": "Sep",
+        "month_index": 9,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2018-10-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2018-10-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 249
+        },
+        "name": "Oct",
+        "month_index": 10,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2018-11-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2018-11-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 250
+        },
+        "name": "Nov",
+        "month_index": 11,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2018-12-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2018-12-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 251
+        },
+        "name": "Dec",
+        "month_index": 12,
+        "max_number_of_installments": 24
+      }
+    ]
+  },
+  {
+    "year_due_date": 2019,
+    "months": [
+      {
+        "debits": 14.74,
+        "due_date": "2019-01-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-01-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 252
+        },
+        "name": "Jan",
+        "month_index": 1,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2019-02-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-02-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 253
+        },
+        "name": "Feb",
+        "month_index": 2,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2019-03-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-03-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 254
+        },
+        "name": "Mar",
+        "month_index": 3,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2019-04-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-04-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 255
+        },
+        "name": "Apr",
+        "month_index": 4,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 14.74,
+        "due_date": "2019-05-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-05-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 14.74,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 256
+        },
+        "name": "May",
+        "month_index": 5,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-06-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-06-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 257
+        },
+        "name": "Jun",
+        "month_index": 6,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-07-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-07-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 258
+        },
+        "name": "Jul",
+        "month_index": 7,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-08-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-08-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 259
+        },
+        "name": "Aug",
+        "month_index": 8,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-09-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-09-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 260
+        },
+        "name": "Sep",
+        "month_index": 9,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-10-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-10-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 261
+        },
+        "name": "Oct",
+        "month_index": 10,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-11-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-11-23",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2902
+        },
+        "name": "Nov",
+        "month_index": 11,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2019-12-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2019-12-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2903
+        },
+        "name": "Dec",
+        "month_index": 12,
+        "max_number_of_installments": 24
+      }
+    ]
+  },
+  {
+    "year_due_date": 2020,
+    "months": [
+      {
+        "debits": 0,
+        "due_date": "2020-01-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-01-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2904
+        },
+        "name": "Jan",
+        "month_index": 1,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-02-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-02-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2905
+        },
+        "name": "Feb",
+        "month_index": 2,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-03-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-03-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2906
+        },
+        "name": "Mar",
+        "month_index": 3,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-04-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-04-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2907
+        },
+        "name": "Apr",
+        "month_index": 4,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-05-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-05-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2908
+        },
+        "name": "May",
+        "month_index": 5,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-06-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-06-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2909
+        },
+        "name": "Jun",
+        "month_index": 6,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-07-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-07-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2910
+        },
+        "name": "Jul",
+        "month_index": 7,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-08-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-08-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2911
+        },
+        "name": "Aug",
+        "month_index": 8,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-09-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-09-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2912
+        },
+        "name": "Sep",
+        "month_index": 9,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-10-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-10-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2913
+        },
+        "name": "Oct",
+        "month_index": 10,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-11-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-11-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2914
+        },
+        "name": "Nov",
+        "month_index": 11,
+        "max_number_of_installments": 24
+      },
+      {
+        "debits": 0,
+        "due_date": "2020-12-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2020-12-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2915
+        },
+        "name": "Dec",
+        "month_index": 12,
+        "max_number_of_installments": 24
+      }
+    ]
+  },
+  {
+    "year_due_date": 2021,
+    "months": [
+      {
+        "debits": 0,
+        "due_date": "2021-01-28",
+        "current_balance": 167.74,
+        "cicle_closing_date": "2021-01-24",
+        "previous_balance": 167.74,
+        "bar_code": null,
+        "international_debts": null,
+        "credits": 0,
+        "exchange_rate": null,
+        "minimum_payment": -400,
+        "payment_status": "NOT_PAID",
+        "local_balance": 0,
+        "statement": {
+          "id": 2916
+        },
+        "name": "Jan",
+        "month_index": 1,
+        "max_number_of_installments": 24
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "tenant": "08102A0B-D4F8-42A2-8B0E-2052D05577D7",
+    "account": 103,
+    "customer": 103,
+    "type": "ACCOUNT",
+    "registration_date": "2017-11-07T14:03:53Z",
+    "details": "Protocolo: 07112017P444991",
+    "label": "Registro de Endereço",
+    "code": "07112017P444991",
+    "code_type": "PROTOCOL",
+    "additional_info": {
+      "new": {
+        "zip_code": "01311-000",
+        "number": 1000,
+        "country": "Brasil",
+        "address": "Avenida Paulista",
+        "city": "São Paulo",
+        "neighborhood": "Bela Vista",
+        "state": "SP"
+      },
+      "old": {
+        "zip_code": "01311-000",
+        "number": 1000,
+        "country": "Brasil",
+        "address": "Avenida Paulista",
+        "city": "São Paulo",
+        "neighborhood": "Bela Vista",
+        "state": "SP"
+      }
+    },
+    "user_agent": {}
+  },
+  {
+    "tenant": "08102A0B-D4F8-42A2-8B0E-2052D05577D7",
+    "account": 103,
+    "customer": 103,
+    "type": "ACCOUNT",
+    "registration_date": "2017-11-07T14:03:53Z",
+    "details": "Protocolo: 07112017P444991",
+    "label": "Registro de Endereço",
+    "code": "07112017P444991",
+    "code_type": "PROTOCOL",
+    "additional_info": {
+      "new": {
+        "zip_code": "04532-010",
+        "number": 306,
+        "country": "Brasil",
+        "address": "Rua Bandeira Paulista",
+        "city": "São Paulo",
+        "neighborhood": "Itaim Bibi",
+        "state": "SP"
+      },
+      "old": {
+        "zip_code": "04532-010",
+        "number": 306,
+        "country": "Brasil",
+        "address": "Rua Bandeira Paulista",
+        "city": "São Paulo",
+        "neighborhood": "Itaim Bibi",
+        "state": "SP"
+      }
+    },
+    "user_agent": {}
+  },
+  {
+    "tenant": "08102A0B-D4F8-42A2-8B0E-2052D05577D7",
+    "account": 103,
+    "customer": 103,
+    "type": "DETAIL_UPDATE",
+    "registration_date": "2017-11-07T14:03:41Z",
+    "details": "[values:[07112017P444991], strings:[Protocolo: , ], valueCount:1, bytes:UHJvdG9jb2xvOiAwNzExMjAxN1A0NDQ5OTE=]",
+    "label": "Alteração de dados pessoais",
+    "code": "07112017P444991",
+    "code_type": "PROTOCOL",
+    "additional_info": {
+      "new": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "MARRIED"
+      },
+      "old": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "DIVORCED"
+      }
+    },
+    "user_agent": {}
+  },
+  {
+    "tenant": "08102A0B-D4F8-42A2-8B0E-2052D05577D7",
+    "account": 103,
+    "customer": 103,
+    "type": "DETAIL_UPDATE",
+    "registration_date": "2017-11-07T14:03:34Z",
+    "details": "[values:[07112017P444991], strings:[Protocolo: , ], valueCount:1, bytes:UHJvdG9jb2xvOiAwNzExMjAxN1A0NDQ5OTE=]",
+    "label": "Alteração de dados pessoais",
+    "code": "07112017P444991",
+    "code_type": "PROTOCOL",
+    "additional_info": {
+      "new": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "DIVORCED"
+      },
+      "old": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "DIVORCED"
+      }
+    },
+    "user_agent": {}
+  },
+  {
+    "tenant": "08102A0B-D4F8-42A2-8B0E-2052D05577D7",
+    "account": 103,
+    "customer": 103,
+    "type": "DETAIL_UPDATE",
+    "registration_date": "2017-11-07T14:03:24Z",
+    "details": "[values:[07112017P444991], strings:[Protocolo: , ], valueCount:1, bytes:UHJvdG9jb2xvOiAwNzExMjAxN1A0NDQ5OTE=]",
+    "label": "Alteração de dados pessoais",
+    "code": "07112017P444991",
+    "code_type": "PROTOCOL",
+    "additional_info": {
+      "new": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "DIVORCED"
+      },
+      "old": {
+        "gender": "M",
+        "name": "Isadora Marangoni",
+        "email": "isa@dora.com",
+        "marital_status": "MARRIED"
+      },
+      "text": "Testando notas de atendimento, campo de texto livre."
+    },
+    "user_agent": {}
+  }
+]

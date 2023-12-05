@@ -1,0 +1,64 @@
+@import '../../App/colors.scss';
+
+.AttendanceNotes {
+  position: absolute;
+  top: 3rem;
+  right: -100%;
+  width: 100%;
+  height: calc(100% - 3rem - 4.1rem);
+  z-index: 1001;
+  background: $pismo-near-white;
+  transition: right 0.25s;
+  display: none;
+
+  @media screen and (min-width: 36rem) {
+    width: 22rem;
+    right: -22rem;
+    height: calc(100% - 3rem);
+  }
+
+  &.AttendanceNotes--Visible {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.33);
+    right: 0;
+  }
+
+  .AttendanceNotes__Header,
+  .AttendanceNotes__Footer {
+    height: 3.6rem;
+    padding: 1.1875rem;
+    background: #fff;
+  }
+  .AttendanceNotes__Header {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: $pismo-dark-blue;
+    border-bottom: 1px solid $pismo-lighter-gray;
+  }
+  .AttendanceNotes__Footer {
+    color: $pismo-mid-gray;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4rem;
+  }
+  .AttendanceNotes__Notes {
+    height: calc(100% - 3.6rem - 3.6rem);
+    padding: 1.1875rem;
+    overflow-y: auto;
+
+    textarea {
+      width: 100%;
+      height: 100%;
+      border: none;
+      font-size: 0.875rem;
+      background: transparent;
+      color: $pismo-dark-blue;
+    }
+  }
+
+  .close-btn {
+    float: right;
+  }
+}

@@ -1,0 +1,56 @@
+@import '../../../App/colors.scss';
+
+.CustomerChangeStatus {
+  background-color: #fff;
+  .button--back {
+    background-color: transparent;
+  }
+
+  .input-group,
+  .Select {
+    margin-bottom: 1.5em;
+  }
+
+  button.button {
+    font-size: 0.875rem;
+    padding: 0.8rem 0.8rem;
+    margin: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+
+    &.button--save {
+      background-color: $pismo-redish-orange;
+      span {
+        color: #fff;
+      }
+    }
+
+    &:disabled {
+      box-shadow: none;
+      background-color: $pismo-silver;
+      cursor: initial;
+
+      &.button--disabled {
+        color: $pismo-gray;
+        span {
+          color: $pismo-gray;
+        }
+      }
+
+      svg {
+        color: $pismo-gray;
+      }
+    }
+  }
+
+  .CustomerChangeStatus__RowSubmit {
+    text-align: right;
+    margin-right: 0;
+
+    button:nth(0) {
+      margin-left: 1rem;
+    }
+  }
+}

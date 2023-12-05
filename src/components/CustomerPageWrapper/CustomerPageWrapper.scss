@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  width: 100%;
+}
+
+.timeline {
+  // width: 25%;
+}
+
+.months {
+  width: calc(100% - 25%);
+  position: relative;
+}
+
+.timeline-Refresh-div {
+  text-align: right;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  .timeline-Refresh-btn {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+.refres-label {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  cursor: pointer;
+}

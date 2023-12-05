@@ -1,0 +1,86 @@
+{
+  "totalItems": 2,
+  "perPage": 999,
+  "pages": 1,
+  "currentPage": 1,
+  "items": [
+    {
+      "merchant": {
+        "id": null,
+        "name": "TESTE TEKA                  SAO PAULO     BR",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 11990,
+        "is_credit": false,
+        "softDescriptor": null,
+        "mcc": {
+          "code": "5499",
+          "description": "Mercadinho especialista",
+          "groupName": "supermercado"
+        },
+        "entryMode": "0510",
+        "referenceAmount": 0.66,
+        "amount": 2.5,
+        "localAmount": 2.5,
+        "localCurrency": "BRL",
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "COMPRA A VISTA",
+        "event_date": "2019-03-20T13:26:20Z",
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 454,
+        "printedName": "CLOUD STRIFE"
+      },
+      "transaction": {
+        "id": 12790
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": "MIDGARD CENTER MARKET         SAO PAULO     BR",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 11994,
+        "is_credit": false,
+        "softDescriptor": null,
+        "mcc": {
+          "code": "5812",
+          "description": "That inner with Soup",
+          "groupName": "restaurante"
+        },
+        "entryMode": "0710",
+        "referenceAmount": 6.75,
+        "amount": 25.5,
+        "localAmount": 25.5,
+        "localCurrency": "BRL",
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "COMPRA A VISTA",
+        "event_date": null,
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 454,
+        "printedName": "CLOUD STRIFE"
+      },
+      "transaction": {
+        "id": 12811
+      }
+    }
+  ]
+}

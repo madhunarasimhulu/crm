@@ -1,0 +1,233 @@
+@import '../../App/colors.scss';
+
+.onboard-root {
+  background-color: #ffffff;
+  border-top: 18px solid var(--topRibbonColor);
+  border-bottom: 18px solid var(--bottomRibbonColor);
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: -18px;
+    border-top: 3px solid var(--ribbonTopColor);
+    width: 100%;
+  }
+}
+
+.onboard-wrapper {
+  max-width: 800px;
+  height: calc(100vh - 80px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  overflow-y: auto;
+  .onboard-content {
+    text-align: center;
+    .onboard-page-title {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      // margin: 6% 0px 0px 0px;
+    }
+
+    /*image container*/
+    .onboard-page-img-container {
+      margin: 4% 0px 0px 0px;
+      text-align: center;
+    }
+    .onboard-banner-img {
+      width: 100%;
+      max-width: 80%;
+    }
+
+    .onboard-status-img-container {
+      margin: 6% 0px 4% 0px;
+    }
+
+    .onboard-otp-container {
+      margin: 4% 0px 0px 0px;
+      text-align: center;
+      .onboard-input-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .onboard-message {
+      margin: 5% 0px 0px 0px;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+      text-align: center;
+      color: #646464;
+    }
+    .onboard-message-normal {
+      margin: 5% 0px 0px 0px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+      text-align: center;
+      color: #646464;
+    }
+
+    .welcome-message {
+      margin: 5% 0px 10% 0px;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+      text-align: center;
+      color: #646464;
+    }
+    .onboard-review-text {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      color: #000000;
+      margin-top: 5%;
+      margin-bottom: 3%;
+    }
+
+    .onboard-page-TandC-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2%;
+    }
+
+    .onboard-page-TandC-error-msg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: red;
+      gap: 2%;
+      min-height: 20px;
+    }
+
+    .onboard-page-TandC-checkbox {
+      width: 18px;
+      height: 18px;
+      margin-right: 2%;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .onboard-page-TandC {
+      color: var(--primaryLightColor);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    /* button related */
+    .onboard-btn-container {
+      display: inline-block;
+      text-align: center;
+      margin: 4% 0px 0px 0px;
+    }
+
+    .onboard-page-button {
+      border-radius: 10px;
+      padding: 12px 80px;
+      background: var(--primaryColor);
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .onboard-page-button-disabled {
+      border-radius: 10px;
+      padding: 12px 80px;
+      background: #cccccc;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #666666;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      cursor: default;
+    }
+  }
+}
+.onboard-otp-input {
+  input[type='text'] {
+    font-size: 34px;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 10px;
+    &.otp-field {
+    }
+    @media only screen and (max-width: 30rem) {
+      font-size: 25px;
+      margin: 7px;
+      height: 40px;
+      width: 40px;
+    }
+  }
+  .opt-gap {
+    display: inline-block;
+    position: relative;
+    &::before {
+      content: '';
+      width: 10px;
+      height: 2px;
+      background-color: #d9d9d9;
+      position: absolute;
+      position: absolute;
+      top: -12px;
+      left: -5px;
+    }
+  }
+  .onboard-input-group {
+    .onboard-otp-input .opt-gap::before {
+      background-color: transparent;
+    }
+
+    .onboard-otp-input:last-child .opt-gap::before {
+      background-color: transparent;
+    }
+    .onboard-otp-input:last-child {
+      .opt-gap {
+        &::before {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.onboard-input-group {
+  .onboard-otp-input:last-child {
+    .opt-gap {
+      &::before {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.otperrorlabel {
+  height: 8px;
+  color: red;
+}

@@ -1,0 +1,432 @@
+{
+  "total_due_amount": 294.13,
+  "min_upfront_amount": 44.12,
+  "min_payment_percent": 15.0,
+  "upfront_amount": 80.0,
+  "financed_amount": 214.13,
+  "first_payment_date": "2019-03-14",
+  "fixed_taxes": {
+    "fixed_iof_rate": 0.38,
+    "daily_iof_rate": 0.0082
+  },
+  "installment_options": [
+    {
+      "number_of_installments": 2,
+      "installment_amount": 117.89,
+      "total_amount": 235.78,
+      "last_payment_date": "2019-04-28",
+      "interest": {
+        "interest_rate": 9.9,
+        "total_interest_amount": 20.32
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 0.52,
+        "total_iof_amount": 1.33
+      },
+      "cet": {
+        "per_year_percentage": 234.67,
+        "per_month_percentage": 10.59
+      }
+    },
+    {
+      "number_of_installments": 3,
+      "installment_amount": 82.44,
+      "total_amount": 247.32,
+      "last_payment_date": "2019-05-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 31.59
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 0.79,
+        "total_iof_amount": 1.6
+      },
+      "cet": {
+        "per_year_percentage": 233.73,
+        "per_month_percentage": 10.56
+      }
+    },
+    {
+      "number_of_installments": 4,
+      "installment_amount": 64.76,
+      "total_amount": 259.04,
+      "last_payment_date": "2019-06-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 43.02
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 1.07,
+        "total_iof_amount": 1.89
+      },
+      "cet": {
+        "per_year_percentage": 230.84,
+        "per_month_percentage": 10.48
+      }
+    },
+    {
+      "number_of_installments": 5,
+      "installment_amount": 54.22,
+      "total_amount": 271.1,
+      "last_payment_date": "2019-07-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 54.81
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 1.36,
+        "total_iof_amount": 2.18
+      },
+      "cet": {
+        "per_year_percentage": 229.76,
+        "per_month_percentage": 10.45
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 47.26,
+      "total_amount": 283.56,
+      "last_payment_date": "2019-08-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 66.94
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 1.66,
+        "total_iof_amount": 2.48
+      },
+      "cet": {
+        "per_year_percentage": 229.01,
+        "per_month_percentage": 10.43
+      }
+    },
+    {
+      "number_of_installments": 7,
+      "installment_amount": 42.34,
+      "total_amount": 296.38,
+      "last_payment_date": "2019-09-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 79.42
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 1.97,
+        "total_iof_amount": 2.79
+      },
+      "cet": {
+        "per_year_percentage": 228.41,
+        "per_month_percentage": 10.42
+      }
+    },
+    {
+      "number_of_installments": 8,
+      "installment_amount": 38.69,
+      "total_amount": 309.52,
+      "last_payment_date": "2019-10-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 92.27
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 2.29,
+        "total_iof_amount": 3.1
+      },
+      "cet": {
+        "per_year_percentage": 228.14,
+        "per_month_percentage": 10.41
+      }
+    },
+    {
+      "number_of_installments": 9,
+      "installment_amount": 35.89,
+      "total_amount": 323.01,
+      "last_payment_date": "2019-11-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 105.47
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 2.61,
+        "total_iof_amount": 3.42
+      },
+      "cet": {
+        "per_year_percentage": 227.89,
+        "per_month_percentage": 10.4
+      }
+    },
+    {
+      "number_of_installments": 10,
+      "installment_amount": 33.69,
+      "total_amount": 336.9,
+      "last_payment_date": "2019-12-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 119.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 2.94,
+        "total_iof_amount": 3.75
+      },
+      "cet": {
+        "per_year_percentage": 228.03,
+        "per_month_percentage": 10.41
+      }
+    },
+    {
+      "number_of_installments": 11,
+      "installment_amount": 31.92,
+      "total_amount": 351.12,
+      "last_payment_date": "2020-01-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 132.89
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 3.28,
+        "total_iof_amount": 4.09
+      },
+      "cet": {
+        "per_year_percentage": 228.09,
+        "per_month_percentage": 10.41
+      }
+    },
+    {
+      "number_of_installments": 12,
+      "installment_amount": 30.47,
+      "total_amount": 365.64,
+      "last_payment_date": "2020-02-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 147.17
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 3.62,
+        "total_iof_amount": 4.44
+      },
+      "cet": {
+        "per_year_percentage": 228.06,
+        "per_month_percentage": 10.41
+      }
+    },
+    {
+      "number_of_installments": 13,
+      "installment_amount": 29.28,
+      "total_amount": 380.64,
+      "last_payment_date": "2020-03-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 161.66
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 3.97,
+        "total_iof_amount": 4.79
+      },
+      "cet": {
+        "per_year_percentage": 228.56,
+        "per_month_percentage": 10.42
+      }
+    },
+    {
+      "number_of_installments": 14,
+      "installment_amount": 28.28,
+      "total_amount": 395.92,
+      "last_payment_date": "2020-04-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 176.54
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 4.33,
+        "total_iof_amount": 5.14
+      },
+      "cet": {
+        "per_year_percentage": 228.88,
+        "per_month_percentage": 10.43
+      }
+    },
+    {
+      "number_of_installments": 15,
+      "installment_amount": 27.43,
+      "total_amount": 411.45,
+      "last_payment_date": "2020-05-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 191.84
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 4.69,
+        "total_iof_amount": 5.5
+      },
+      "cet": {
+        "per_year_percentage": 229.12,
+        "per_month_percentage": 10.44
+      }
+    },
+    {
+      "number_of_installments": 16,
+      "installment_amount": 26.71,
+      "total_amount": 427.36,
+      "last_payment_date": "2020-06-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 207.44
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 5.07,
+        "total_iof_amount": 5.88
+      },
+      "cet": {
+        "per_year_percentage": 229.44,
+        "per_month_percentage": 10.45
+      }
+    },
+    {
+      "number_of_installments": 17,
+      "installment_amount": 26.1,
+      "total_amount": 443.7,
+      "last_payment_date": "2020-07-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 223.23
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 5.44,
+        "total_iof_amount": 6.26
+      },
+      "cet": {
+        "per_year_percentage": 229.96,
+        "per_month_percentage": 10.46
+      }
+    },
+    {
+      "number_of_installments": 18,
+      "installment_amount": 25.57,
+      "total_amount": 460.26,
+      "last_payment_date": "2020-08-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 239.45
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 5.82,
+        "total_iof_amount": 6.64
+      },
+      "cet": {
+        "per_year_percentage": 230.32,
+        "per_month_percentage": 10.47
+      }
+    },
+    {
+      "number_of_installments": 19,
+      "installment_amount": 25.11,
+      "total_amount": 477.09,
+      "last_payment_date": "2020-09-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 256.06
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 6.21,
+        "total_iof_amount": 7.02
+      },
+      "cet": {
+        "per_year_percentage": 230.62,
+        "per_month_percentage": 10.48
+      }
+    },
+    {
+      "number_of_installments": 20,
+      "installment_amount": 24.72,
+      "total_amount": 494.4,
+      "last_payment_date": "2020-10-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 272.75
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 6.61,
+        "total_iof_amount": 7.43
+      },
+      "cet": {
+        "per_year_percentage": 231.18,
+        "per_month_percentage": 10.49
+      }
+    },
+    {
+      "number_of_installments": 21,
+      "installment_amount": 24.38,
+      "total_amount": 511.98,
+      "last_payment_date": "2020-11-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 289.81
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.82,
+        "total_daily_iof_amount": 7.02,
+        "total_iof_amount": 7.84
+      },
+      "cet": {
+        "per_year_percentage": 231.68,
+        "per_month_percentage": 10.51
+      }
+    },
+    {
+      "number_of_installments": 22,
+      "installment_amount": 24.08,
+      "total_amount": 529.76,
+      "last_payment_date": "2020-12-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 307.32
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 7.43,
+        "total_iof_amount": 8.24
+      },
+      "cet": {
+        "per_year_percentage": 232.1,
+        "per_month_percentage": 10.52
+      }
+    },
+    {
+      "number_of_installments": 23,
+      "installment_amount": 23.82,
+      "total_amount": 547.86,
+      "last_payment_date": "2021-01-28",
+      "interest": {
+        "interest_rate": 9.99,
+        "total_interest_amount": 324.91
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.81,
+        "total_daily_iof_amount": 7.82,
+        "total_iof_amount": 8.63
+      },
+      "cet": {
+        "per_year_percentage": 232.57,
+        "per_month_percentage": 10.53
+      }
+    }
+  ]
+}

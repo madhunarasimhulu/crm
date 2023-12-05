@@ -1,0 +1,91 @@
+@import '../../App/colors.scss';
+
+.profile-params {
+  background-color: #eceef2;
+  h2 {
+    font-size: 36px;
+    color: $pismo-darker;
+  }
+  &-details {
+    &-item {
+      background-color: $pismo-dark-grayish-blue;
+      .action-btn {
+        height: 20px;
+        margin: auto;
+        span {
+          border-bottom: 2px solid;
+          padding-bottom: 5px;
+        }
+      }
+      &.item-danger {
+        background-color: $pismo-pink;
+      }
+      &.item-blue {
+        background-color: $pismo-blue;
+      }
+      &:hover {
+        .details-info {
+          opacity: 0;
+        }
+        .action-btn {
+          opacity: 1;
+        }
+      }
+      .action-btn-bottom {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .views-params {
+    background: $pismo-lighter-gray;
+    top: 48px;
+    max-width: inherit;
+    @media screen and (min-width: 60em) {
+      & {
+        top: 48px;
+      }
+    }
+  }
+  .params-list {
+    li {
+      border-bottom-color: $pismo-near-white;
+    }
+  }
+
+  .customer-account-view {
+    background-color: #fff;
+  }
+
+  .customer-action {
+    color: $pismo-pink;
+    font-size: 1rem;
+  }
+
+  .profile-params-account-info-item {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+.editing {
+  &.selected {
+    background: #fff;
+  }
+  &.noclick {
+    span {
+      color: #bfbfbf;
+    }
+  }
+}
+
+.input-editing {
+  border-bottom: 2px solid $pismo-gray;
+}
+
+.fix-pad {
+  padding-top: 55px;
+}
+
+.cursor-pe-none {
+  pointer-events: none;
+}

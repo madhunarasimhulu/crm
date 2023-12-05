@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "name": "DISAGREEMENT",
+      "reasons": [
+        {
+          "visa_code": 30,
+          "mastercard_code": 4855,
+          "consolidated_code": 4853,
+          "description": "Serviços não prestados"
+        },
+        {
+          "visa_code": 30,
+          "mastercard_code": 4855,
+          "consolidated_code": 4853,
+          "description": "Mercadoria não recebida"
+        },
+        {
+          "visa_code": 85,
+          "mastercard_code": 4853,
+          "consolidated_code": 4853,
+          "description": "Mercadoria devolvida"
+        },
+        {
+          "visa_code": 53,
+          "mastercard_code": 4853,
+          "consolidated_code": 4853,
+          "description": "Mercadoria com defeito/falsificada"
+        },
+        {
+          "visa_code": 53,
+          "mastercard_code": 4853,
+          "consolidated_code": 4853,
+          "description": "Não confere com o descrito"
+        },
+        {
+          "visa_code": 85,
+          "mastercard_code": 4859,
+          "consolidated_code": 4853,
+          "description": "Contestação de adendo/no show"
+        },
+        {
+          "visa_code": 41,
+          "mastercard_code": 4841,
+          "consolidated_code": 4853,
+          "description": "Renovação indevida/cancelamento de transação recorrente"
+        },
+        {
+          "visa_code": 85,
+          "mastercard_code": 4860,
+          "consolidated_code": 4853,
+          "description": "Cancelamento - crédito não processado"
+        }
+      ]
+    },
+    {
+      "name": "PROCESSING_ERROR",
+      "reasons": [
+        {
+          "visa_code": 82,
+          "mastercard_code": 4834,
+          "consolidated_code": 4834,
+          "description": "Duplicidade"
+        },
+        {
+          "visa_code": 86,
+          "mastercard_code": 4831,
+          "consolidated_code": 4834,
+          "description": "Pagamento por outros meios"
+        },
+        {
+          "visa_code": 90,
+          "mastercard_code": 4859,
+          "consolidated_code": 4834,
+          "description": "ATM Disputes (cash não saiu dinheiro)"
+        },
+        {
+          "visa_code": 80,
+          "mastercard_code": 4831,
+          "consolidated_code": 4834,
+          "description": "Processado a maior/a menor"
+        },
+        {
+          "visa_code": 76,
+          "mastercard_code": 4846,
+          "consolidated_code": 4834,
+          "description": "Processado em moeda incorreta"
+        },
+        {
+          "visa_code": 74,
+          "mastercard_code": 4842,
+          "consolidated_code": 4834,
+          "description": "Apresentação tardia"
+        }
+      ]
+    },
+    {
+      "name": "FRAUD",
+      "reasons": [
+        {
+          "visa_code": 81,
+          "mastercard_code": 4837,
+          "consolidated_code": null,
+          "description": "Não reconhece e não autorizou transação cartão presente"
+        },
+        {
+          "visa_code": 83,
+          "mastercard_code": 4837,
+          "consolidated_code": null,
+          "description": "Não reconhece e não autorizou transação cartão ausente"
+        },
+        {
+          "visa_code": 62,
+          "mastercard_code": 4870,
+          "consolidated_code": null,
+          "description": "Não reconhece / Chip Liability Shift"
+        },
+        {
+          "visa_code": null,
+          "mastercard_code": 4871,
+          "consolidated_code": null,
+          "description": "Não reconhece / Chip Liability Shift - Lost/stolen/never received issuer"
+        },
+        {
+          "visa_code": 93,
+          "mastercard_code": 4849,
+          "consolidated_code": null,
+          "description": "Estabelecimento com atividade questionável"
+        }
+      ]
+    }
+  ]
+}

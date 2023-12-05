@@ -1,0 +1,129 @@
+.resultBox {
+  padding: 12px;
+  cursor: pointer;
+  background: #f3f2f2;
+}
+
+.resultBox:hover {
+  background: #f4dfcc;
+}
+
+.navBar {
+  width: 100%;
+  background: #214d72;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.logo {
+  height: auto;
+  width: 140px;
+  height: 100px;
+  margin-left: 47px;
+  margin-top: -40px;
+  padding-left: 10px;
+  padding-top: 8px;
+}
+.profileLogo {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.MuiSelect-select:focus {
+  background: transparent !important;
+}
+
+.profileIconButton {
+  width: 50px;
+  height: 50px;
+  margin-left: -20px !important;
+}
+.searchIconButton {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px !important;
+  margin-right: 1px !important;
+}
+
+.redBar {
+  position: absolute;
+  background: #fe6f61;
+  height: 0.2rem;
+  width: 100%;
+}
+.close_btn {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.sbox_item_name {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  padding: 4px;
+}
+.sbox_item_email {
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  padding: 4px;
+}
+
+.sbox_item_program {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 4px;
+}
+.rbox {
+  padding: 5px !important;
+}
+
+.CS_Tenant {
+  display: flex;
+}
+
+.CS_Tenant .MuiInputBase-root {
+  // all: unset;
+  color: white;
+}
+.CS_Tenant .MuiSelect-icon {
+  color: #ffffff8a;
+}
+.CS_Tenant_select {
+  padding-top: 8px;
+}
+.PROFILE {
+}
+
+.PROFILE .MuiMenuItem-root {
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.Timer_time {
+  color: white;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.Timer_time_hide {
+  color: white;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+.CustSearch_search_key {
+  padding: 2px;
+  width: 27%;
+}
+
+.CustSearch_search_value {
+  padding: 10px;
+  flex-grow: 1;
+}
+

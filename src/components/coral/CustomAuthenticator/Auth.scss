@@ -1,0 +1,121 @@
+.Login_container {
+  height: 100vh;
+  width: 100vw;
+}
+.Login_box {
+  // border: 1px solid black;
+  width: 24rem;
+  border-radius: 13px;
+  background-color: #fff !important;
+  box-shadow: 0 0 10px #575555;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+
+.Login_box_MFA {
+  // border: 1px solid black;
+  // width: 24rem;
+  border-radius: 13px;
+  background-color: #fff !important;
+  box-shadow: 0 0 10px #575555;
+  box-shadow: 0px 4px 25px 5px rgba(36, 86, 113, 0.2);
+}
+
+.Login_siginIn {
+  padding: 2rem;
+}
+
+.Login_siginIn .amplify-input {
+  border: none;
+  background: rgb(242, 245, 247);
+  border-radius: 4px;
+}
+
+.Login_siginIn .amplify-label {
+  color: black;
+}
+
+.Login_input {
+  width: 100%;
+  outline: none;
+}
+
+.Login_input_innerStartComponent {
+  padding: 8px 8px 0px 8px;
+}
+
+.Login_input_innerStartComponent svg {
+  color: black;
+}
+
+.Login_input_innerEndComponent {
+  all: unset;
+  padding: 15px 8px 0px 8px;
+  cursor: pointer;
+}
+
+.Login_input_innerEndComponent svg {
+  color: black;
+}
+
+.Login_pwd_container {
+  padding-top: 1rem;
+}
+
+.Login_signIn {
+  background-color: #fe6f61 !important;
+  width: 100%;
+  color: white;
+  border: none;
+}
+
+.Login_signIn_Loading {
+  background-color: #fa9583 !important;
+  width: 100%;
+  color: white;
+  pointer-events: none;
+}
+
+.Login_signIn:hover {
+  background-color: #fa9583 !important;
+  color: white;
+}
+
+.Login_signIn:focus-visible {
+  border: none;
+}
+
+.Login_signIn:focus {
+  background-color: #fe6f61 !important;
+  color: white;
+}
+.Login_signInContainer {
+  padding-top: 1rem;
+}
+
+.Login_signInContainer_not_allowed {
+  padding-top: 1rem;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.Login_forgot_pwd {
+  cursor: pointer;
+  color: rgb(64, 151, 170);
+  font-weight: 500;
+}
+
+.Login_messageBox {
+  padding: 0.5rem;
+  // max-width: 350px;
+}
+
+.Forgot_label {
+  justify-content: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.Forgot_label span {
+  color: black;
+  font-size: 28px;
+  // font-weight: bold;
+}

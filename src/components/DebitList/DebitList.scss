@@ -1,0 +1,59 @@
+.transactions-base {
+  height: calc(85vh - 10.2rem);
+  overflow-y: auto;
+}
+
+@media screen and (max-height: 700px) {
+  .transactions-base {
+    height: 50vh;
+  }
+}
+
+.transaction-item {
+  padding: 1rem;
+  display: flex;
+  font-size: 0.875rem;
+}
+
+.transaction-item + .transaction-item {
+  border-top: 1px solid #e0e0e0;
+}
+
+.transaction-item .transaction-value {
+  color: #26c33b;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: flex-end;
+}
+
+.transaction-item .transaction-value.transaction-debit {
+  color: #d40f2c;
+}
+
+.transaction-item.transaction-cancel {
+  text-decoration: line-through;
+}
+
+.transaction-item.transaction-selected {
+  background-color: #ccc;
+}
+
+.transaction-item .transaction-date {
+  align-items: center;
+  display: flex;
+  width: 20%;
+}
+
+.transaction-item .transaction-description {
+  width: 60%;
+  align-items: center;
+  display: flex;
+}
+
+.transaction-notfound {
+  font-size: 1em;
+  text-align: center;
+  padding: 15px;
+}

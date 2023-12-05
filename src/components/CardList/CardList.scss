@@ -1,0 +1,23 @@
+.img-plastic {
+  background-image: url('../../assets/img/bg-plastic.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.img-virtual {
+  background-image: url('../../assets/img/bg-virtual.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.hgroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.v-center {
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

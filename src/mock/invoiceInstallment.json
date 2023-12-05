@@ -1,0 +1,23 @@
+{
+  "authorization": {
+    "id": 4111,
+    "is_credit": false,
+    "soft_descriptor": "PARCELA DE REFINANCIAMENTO",
+    "mcc": null,
+    "entry_mode": null,
+    "amount": 14.74,
+    "reference_amount": null,
+    "local_amount": null,
+    "local_currency": null,
+    "currency_code": "null",
+    "installment": 4,
+    "number_of_installments": 12,
+    "type": "PARCELA DE REFINANCIAMENTO",
+    "type_code": 702,
+    "event_date": "2018-05-29T03:00:00Z",
+    "is_disputed": false,
+    "is_disputable": false,
+    "card_name": null,
+    "transference_current_account": null
+  }
+}

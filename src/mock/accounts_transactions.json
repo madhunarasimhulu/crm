@@ -1,0 +1,1763 @@
+{
+  "total_items": 45,
+  "per_page": 999999,
+  "pages": 1,
+  "current_page": 1,
+  "items": [
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 509385,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN TERCEIROS",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN TERCEIROS",
+        "type_code": 324,
+        "event_date": "2020-01-21T17:20:07Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 495068,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 509381,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT TERCEIROS enviada para Rodolfo Sumaris Laurenti",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT TERCEIROS",
+        "type_code": 340,
+        "event_date": "2020-01-21T17:13:21Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 495063,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 2130,
+        "is_credit": false,
+        "soft_descriptor": "EXTRA ITAIM I           SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 100.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "SAQUE",
+        "type_code": 123,
+        "event_date": "2020-01-20T21:28:22Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494949,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 2130,
+        "is_credit": false,
+        "soft_descriptor": "EXTRA ITAIM I           SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 6.9,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TARIFA SAQUE",
+        "type_code": 604,
+        "event_date": "2020-01-20T21:28:22Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494950,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 2126,
+        "is_credit": true,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.03,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "CANCELAMENTO DE COMPRA",
+        "type_code": 503,
+        "event_date": "2020-01-20T20:16:56Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494942,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 2126,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.03,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-20T20:16:34Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494941,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1897,
+        "is_credit": true,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.02,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "CANCELAMENTO DE COMPRA",
+        "type_code": 503,
+        "event_date": "2020-01-20T18:48:05Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494904,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 509241,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN TERCEIROS",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN TERCEIROS",
+        "type_code": 324,
+        "event_date": "2020-01-20T15:17:18Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494896,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1897,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.02,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-20T14:30:56Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494821,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 509215,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN TERCEIROS",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 5.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN TERCEIROS",
+        "type_code": 324,
+        "event_date": "2020-01-20T13:19:33Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494840,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 509212,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT TERCEIROS enviada para Lucas Daniel Nogueira Da Motta",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT TERCEIROS",
+        "type_code": 340,
+        "event_date": "2020-01-20T13:19:32Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494837,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1829,
+        "is_credit": false,
+        "soft_descriptor": "TIMBIRAS PARK LTDA      SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-18T22:37:34Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 494722,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1590,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 0.01,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-16T14:35:12Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 491370,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1467,
+        "is_credit": false,
+        "soft_descriptor": "QUE PASA                SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 32.04,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-15T15:40:37Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 486142,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 500482,
+        "is_credit": false,
+        "soft_descriptor": "Enviado para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 4.09,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "DEBITO PAGAMENTO",
+        "type_code": 103,
+        "event_date": "2020-01-15T11:15:27Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 486121,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497987,
+        "is_credit": false,
+        "soft_descriptor": "Enviado para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 4.09,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "DEBITO PAGAMENTO",
+        "type_code": 103,
+        "event_date": "2020-01-14T15:55:58Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483626,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1353,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 0.02,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-14T15:04:56Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483582,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497960,
+        "is_credit": false,
+        "soft_descriptor": "PAGAMENTO UTILITIES enviada para ELETROPAULO",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 170.21,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "PAGAMENTO UTILITIES",
+        "type_code": 917,
+        "event_date": "2020-01-14T13:55:10Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483605,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497953,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT TERCEIROS enviada para Bruno Perez Ferreira Dos Santos",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 240.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT TERCEIROS",
+        "type_code": 340,
+        "event_date": "2020-01-14T13:43:03Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483601,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497930,
+        "is_credit": false,
+        "soft_descriptor": "Enviado para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.08,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "DEBITO PAGAMENTO",
+        "type_code": 103,
+        "event_date": "2020-01-14T11:33:06Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483568,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1273,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.95,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-13T13:25:14Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483400,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1211,
+        "is_credit": false,
+        "soft_descriptor": "EXTRA ITAIM I           SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 26.9,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "SAQUE",
+        "type_code": 123,
+        "event_date": "2020-01-11T19:18:33Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483299,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1171,
+        "is_credit": false,
+        "soft_descriptor": "PADARIA ESTRELA DO DIA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 13.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-10T17:11:13Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483218,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1103,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.88,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-09T18:13:59Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483072,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1084,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.87,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-09T14:34:29Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483054,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497384,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT TERCEIROS enviada para Eric Vinicius Cardoso",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT TERCEIROS",
+        "type_code": 340,
+        "event_date": "2020-01-09T11:46:35Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483058,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 497381,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN TERCEIROS",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN TERCEIROS",
+        "type_code": 324,
+        "event_date": "2020-01-09T11:43:09Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 483057,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 1057,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.83,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-01-08T21:30:51Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 480004,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 473271,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT enviada para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 0.29,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT",
+        "type_code": 310,
+        "event_date": "2019-12-24T12:13:48Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458955,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 389,
+        "is_credit": false,
+        "soft_descriptor": "AV.CENTRAL1425          CARDOSO        BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 106.9,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "SAQUE",
+        "type_code": 123,
+        "event_date": "2019-12-23T18:57:54Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458921,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 473245,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT enviada para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 3.1,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT",
+        "type_code": 310,
+        "event_date": "2019-12-23T17:39:45Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458927,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 473218,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 110.02,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN",
+        "type_code": 314,
+        "event_date": "2019-12-23T11:57:57Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458899,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 307,
+        "is_credit": false,
+        "soft_descriptor": "MERCADOPAGO *VICTORSC   OSASCO         BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2019-12-21T20:35:22Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458900,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 219,
+        "is_credit": false,
+        "soft_descriptor": "AV.BRIGADEIRO           SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 26.9,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "SAQUE",
+        "type_code": 123,
+        "event_date": "2019-12-18T20:47:39Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458489,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 215,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.72,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2019-12-18T19:55:14Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458490,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 214,
+        "is_credit": false,
+        "soft_descriptor": "GUSTAVO JARDIM PORTUGA  SAO PAULO      BRA",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 1.71,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2019-12-18T19:50:21Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458491,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 472766,
+        "is_credit": false,
+        "soft_descriptor": "PAGAMENTO UTILITIES enviada para ELETROPAULO",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 104.17,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "PAGAMENTO UTILITIES",
+        "type_code": 917,
+        "event_date": "2019-12-18T16:10:41Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458475,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 472764,
+        "is_credit": true,
+        "soft_descriptor": "TED CASH IN",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 200.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TED CASH IN",
+        "type_code": 313,
+        "event_date": "2019-12-18T16:00:44Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 458473,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 460205,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT TERCEIROS enviada para Lucas Daniel Nogueira Da Motta",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT TERCEIROS",
+        "type_code": 340,
+        "event_date": "2019-12-12T01:08:20Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 446010,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 460132,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN TERCEIROS",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN TERCEIROS",
+        "type_code": 324,
+        "event_date": "2019-12-11T11:51:59Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 445936,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 456541,
+        "is_credit": true,
+        "soft_descriptor": "TEF CASH IN",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 100.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH IN",
+        "type_code": 314,
+        "event_date": "2019-12-10T14:47:30Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 442338,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 445071,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT enviada para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 90.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT",
+        "type_code": 310,
+        "event_date": "2019-11-28T12:32:05Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 441683,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 437133,
+        "is_credit": false,
+        "soft_descriptor": "TEF CASH OUT enviada para Gustavo Jardim Portugal",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 10.0,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TEF CASH OUT",
+        "type_code": 310,
+        "event_date": "2019-11-22T18:54:36Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 441680,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 437029,
+        "is_credit": true,
+        "soft_descriptor": "TED CASH IN",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 99.99,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TED CASH IN",
+        "type_code": 313,
+        "event_date": "2019-11-22T10:08:59Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 423702,
+        "category": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 437027,
+        "is_credit": true,
+        "soft_descriptor": "TED CASH IN",
+        "mcc": null,
+        "entry_mode": null,
+        "amount": 0.01,
+        "reference_amount": null,
+        "local_amount": null,
+        "local_currency": null,
+        "currency_code": "null",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "TED CASH IN",
+        "type_code": 313,
+        "event_date": "2019-11-22T10:07:21Z",
+        "is_disputed": false,
+        "is_disputable": true,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 280169,
+        "printed_name": "Gustavo Jardim Portugal"
+      },
+      "transaction": {
+        "id": 423701,
+        "category": null
+      }
+    }
+  ]
+}

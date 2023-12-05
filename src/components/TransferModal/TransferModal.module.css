@@ -1,0 +1,16 @@
+.btn-transfer {
+  background-color: hsl(217, 22%, 16%);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  width: 70%;
+  border: 0px;
+}
+
+.btn-transfer:disabled {
+  background-color: #e1e5ed;
+  color: #c1c7d4;
+}

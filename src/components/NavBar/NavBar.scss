@@ -1,0 +1,50 @@
+@import '../../App/colors.scss';
+
+.NavBar {
+  display: table;
+  width: 100%;
+  padding: 0.625rem;
+  color: $pismo-darker;
+
+  .NavBar__Wrapper {
+    display: table-row;
+  }
+  .NavBar__LeftSlot,
+  .NavBar__Center,
+  .NavBar__RightSlot {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .NavBar__LeftSlot,
+  .NavBar__RightSlot {
+    font-size: 1.5rem;
+    min-width: 1.5rem;
+    line-height: 1rem;
+  }
+
+  .NavBar__Center {
+    width: 100%;
+    text-align: center;
+  }
+
+  .NavBar__Title {
+    font-weight: bold;
+  }
+
+  .NavBar__subtitle {
+    font-size: 0.875rem;
+  }
+
+  &.NavBar--theme-white {
+    background: #fff;
+  }
+
+  &.NavBar--theme-gray {
+    background: $pismo-lighter-gray;
+  }
+
+  &.NavBar--theme-transparent {
+    background: transparent;
+  }
+}

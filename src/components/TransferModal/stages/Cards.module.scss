@@ -1,0 +1,40 @@
+.card {
+  color: white;
+  cursor: pointer;
+  &.selected {
+    padding: 2px;
+    border: 2px solid #ffa945;
+    border-radius: 15px;
+  }
+
+  & + .card {
+    margin-top: 3px;
+  }
+
+  .card_base {
+    background: linear-gradient(180deg, #525061 0%, #838192 100%);
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 15px;
+    .card_details {
+      text-align: left;
+      .card_number {
+        font-size: 20px;
+        font-weight: lighter;
+        .visible {
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+      .card_program {
+        font-weight: 300;
+      }
+    }
+    .card_brand {
+      font-size: 45px;
+      &.card_brand_visa {
+        font-size: 30px;
+      }
+    }
+  }
+}

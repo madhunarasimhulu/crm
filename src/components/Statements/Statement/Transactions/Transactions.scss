@@ -1,0 +1,10 @@
+.transactions-base {
+  height: calc(85vh - 10.2rem);
+  overflow-y: auto;
+}
+
+@media screen and (max-height: 700px) {
+  .transactions-base {
+    height: 50vh;
+  }
+}

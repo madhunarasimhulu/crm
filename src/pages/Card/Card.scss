@@ -1,0 +1,65 @@
+@import '../../App/colors.scss';
+
+.Cards__Card {
+  .RevealDataTooltip {
+    width: 100%;
+    margin-top: -9px;
+    height: 25px;
+    position: relative;
+    pointer-events: none;
+
+    @media (min-width: 600px) {
+      height: 10px;
+    }
+  }
+
+  .RevealDataBubble {
+    color: #fff;
+    border-radius: 0 8px 8px 8px;
+    padding: 1rem;
+    background-color: $pismo-blue;
+    display: table;
+    margin: 0 auto;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+    max-width: 70%;
+  }
+}
+
+.Card-plastic {
+  background-image: url('../../assets/img/bg-plastic.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.Card-virtual {
+  background-image: url('../../assets/img/bg-virtual.png');
+  background-position: center;
+  background-size: cover;
+
+  .virtual-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  }
+  .NavBar__LeftSlot a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 13px;
+    box-shadow: 1px 0px 3px #999;
+  }
+}
+.Pin-error-msg-div{
+
+    margin-top: 15px;
+    color:red;
+
+  .Pin-error-msg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+

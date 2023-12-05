@@ -1,0 +1,10 @@
+[
+  {
+    "label": "virtual",
+    "enabled": true
+  },
+  {
+    "label": "physical",
+    "enabled": false
+  }
+]

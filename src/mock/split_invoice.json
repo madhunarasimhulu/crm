@@ -1,0 +1,163 @@
+{
+  "total_due_amount": 0.0,
+  "min_upfront_amount": 10.0,
+  "upfront_amount": 20.26,
+  "financed_amount": -20.26,
+  "first_payment_date": "2018-05-03",
+  "fixed_taxes": {
+    "fixed_iof_rate": 0.38,
+    "daily_iof_rate": 0.0082
+  },
+  "installment_options": [
+    {
+      "number_of_installments": 2,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-06-01",
+      "interest": {
+        "interest_rate": 5.9,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 3,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.2,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 4,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 5,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    },
+    {
+      "number_of_installments": 6,
+      "installment_amount": 0.0,
+      "total_amount": 0.0,
+      "last_payment_date": "2018-07-01",
+      "interest": {
+        "interest_rate": 6.5,
+        "total_interest_amount": 0.0
+      },
+      "taxes": {
+        "total_fixed_iof_amount": 0.0,
+        "total_daily_iof_amount": 0.0,
+        "total_iof_amount": 0.0
+      }
+    }
+  ]
+}

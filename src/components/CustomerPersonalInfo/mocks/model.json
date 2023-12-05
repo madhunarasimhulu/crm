@@ -1,0 +1,165 @@
+[
+  {
+    "customer": {
+      "account": {
+        "open_due_date": null,
+        "account_status": "NORMAL"
+      },
+      "entity": {
+        "name": "Caglenda Bonilha",
+        "document_number": "89554801050",
+        "email": "caglenda@pismo.io",
+        "nickname": "ITI",
+        "social_name": null,
+        "type_id": 1,
+        "entity_type": "Person",
+        "pep": false,
+        "gender": null,
+        "marital_status": null,
+        "nationality": null,
+        "birth_date": "1990-03-03T03:00:00Z",
+        "city_of_birth": null,
+        "state_of_birth": null,
+        "country_of_birth": null,
+        "document_type": null,
+        "other_id_number": null,
+        "document_issued_by": null,
+        "document_issued_at": null,
+        "document_issued_date": null,
+        "fathers_name": null,
+        "mothers_name": null,
+        "occupation": null,
+        "income": null,
+        "net_worth": null,
+        "assets": null,
+        "id": 14866335,
+        "status": {
+          "id": 1,
+          "description": "NORMAL"
+        },
+        "is_owner": true
+      },
+      "program": {
+        "id": 540,
+        "type": 6,
+        "type_name": "CONTA-CORRENTE"
+      },
+      "programs": [
+        {
+          "customer_id": 14862302,
+          "entity_id": 14866335,
+          "account_id": 15078902,
+          "program_name": "Conta Pagamento",
+          "program_id": 540,
+          "isCurrent": true
+        }
+      ],
+      "contract": {
+        "best_transaction_day": null,
+        "amount": 0.55,
+        "credits": null,
+        "current_balance": null,
+        "due_date": 5,
+        "event_date_hour": "2019-03-11T14:22:07Z",
+        "last_statement": null,
+        "minimum_payment": null
+      },
+      "credit_limits": {
+        "available": 4.73,
+        "available_monthly": 0,
+        "available_total_installment": 0,
+        "available_withdrawal": 0,
+        "monthly": 0,
+        "max": 1000,
+        "total": 0,
+        "total_installment": 0,
+        "withdrawal": 0
+      },
+      "latestAuthorizations": {
+        "totalItems": 0,
+        "perPage": 10,
+        "pages": 0,
+        "currentPage": 1,
+        "items": []
+      },
+      "isAvatarLoading": false,
+      "id": 15078902,
+      "brand_name": null,
+      "email": "caglenda@pismo.io",
+      "addresses": [
+        {
+          "id": 220686,
+          "type": "RESIDENTIAL",
+          "address": "Address",
+          "number": 10,
+          "complementary_address": "Suite 222",
+          "neighborhood": "Neighborhood",
+          "zipcode": "04715004",
+          "city": "City",
+          "state": "SP",
+          "country": "Brasil",
+          "mailing_address": true,
+          "last_update": null,
+          "creation_date": "2019-02-27T16:35:48Z"
+        }
+      ],
+      "phones": [
+        {
+          "id": 400251,
+          "area_code": "11",
+          "number": "989354983",
+          "type": "MOBILE",
+          "extension": null,
+          "last_update": null,
+          "creation_date": "2019-02-27T16:35:48Z"
+        }
+      ],
+      "card": {
+        "hash": "zPGy1Xe/qo2QLsi5Doq0IR0uzGmFs23Hz+0ySNCWIsoSMXR45fzQdeStr5rQv1Rh/gPro0OozLWm4AmAdOiE1Q==",
+        "status": "NORMAL",
+        "expiration_date": "2025-02-27T03:00:00Z",
+        "issuing_date": "2019-02-27T16:35:47Z",
+        "stage": "UNBLOCKED",
+        "last_4_digits": "7774",
+        "first_4_digits": "9999"
+      },
+      "financial": {
+        "status_id": 1,
+        "status": "NORMAL"
+      },
+      "operation": {
+        "name": "TRANSFERENCIA DEBITO"
+      },
+      "organization": {
+        "id": "TN-9777ef45-ba68-4a52-b4f0-5e85b190cc25"
+      },
+      "authorization": {
+        "id": 6164489
+      },
+      "bureaux_black_list": {
+        "inclusion_date": null
+      },
+      "acquisition": {
+        "token": "ea3b7ec3-1603-41d6-a699-1355446c5c08"
+      },
+      "accountId": 15078902,
+      "customerId": 14862302,
+      "mailingAddress": {
+        "id": 220686,
+        "type": "RESIDENTIAL",
+        "address": "Address",
+        "number": 10,
+        "complementary_address": "Suite 222",
+        "neighborhood": "Neighborhood",
+        "zipcode": "04715004",
+        "city": "City",
+        "state": "SP",
+        "country": "Brasil",
+        "mailing_address": true,
+        "last_update": null,
+        "creation_date": "2019-02-27T16:35:48Z"
+      },
+      "isLoading": false
+    }
+  }
+]

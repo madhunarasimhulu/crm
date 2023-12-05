@@ -1,0 +1,49 @@
+@import '../../App/colors.scss';
+
+.NewCard {
+  button.button {
+    min-width: 7rem;
+
+    font-size: 0.875rem;
+    padding: 0.8rem 0.8rem;
+    margin: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+
+    &.button--save {
+      background-color: $pismo-redish-orange;
+      span {
+        color: #fff;
+      }
+    }
+
+    &.button--exclude {
+      color: $pismo-dark-blue;
+      background-color: $pismo-near-white;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.22);
+      & svg {
+        font-size: 1.1rem;
+        margin-top: -3px;
+      }
+    }
+
+    &:disabled {
+      box-shadow: none;
+      background-color: $pismo-silver;
+      cursor: initial;
+
+      &.button--disabled {
+        color: $pismo-gray;
+        span {
+          color: $pismo-gray;
+        }
+      }
+
+      svg {
+        color: $pismo-gray;
+      }
+    }
+  }
+}

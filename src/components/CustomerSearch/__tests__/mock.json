@@ -1,0 +1,26 @@
+{
+  "customers": {
+    "search": "pismo user",
+    "results": [
+      {
+        "account_id": 15078444,
+        "customer_id": 14861926,
+        "name": "pismo User",
+        "last_4_digits": "1725",
+        "program_name": "Conta Pagamento",
+        "email": "pismo.user@pismo.io",
+        "financial_status": "NORMAL",
+        "due_date_days": null,
+        "program_type": "CONTA-CORRENTE",
+        "last_card_id": 235496,
+        "token": "0057e85e-409a-4fad-85ec-d73f0f8f5980",
+        "is_owner": 1,
+        "document_number": "38258325205"
+      }
+    ],
+    "displayCount": 25,
+    "selectedResult": 0,
+    "isLoading": false,
+    "isFetching": false
+  }
+}

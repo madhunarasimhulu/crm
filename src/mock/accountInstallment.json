@@ -1,0 +1,28 @@
+{
+  "contract": {
+    "first_payment_date": "2018-05-28",
+    "first_payment_amount": 199.0,
+    "number_of_installments": 4,
+    "contract_amount": 112.04,
+    "principal_amount": 87.8,
+    "installment_amount": 28.01,
+    "interest_rate": 9.9
+  },
+  "advancement_options": [
+    {
+      "installments_to_advance": 1,
+      "total_amount": 28.01,
+      "in_advance": 25.49
+    },
+    {
+      "installments_to_advance": 2,
+      "total_amount": 56.02,
+      "in_advance": 48.68
+    },
+    {
+      "installments_to_advance": 3,
+      "total_amount": 84.03,
+      "in_advance": 69.78
+    }
+  ]
+}

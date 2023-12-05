@@ -1,0 +1,25 @@
+@import '../../App/colors.scss';
+
+button {
+  outline: none;
+}
+
+.modal-rounded {
+  border: 1px solid $pismo-lighter-silver;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.modal-rounded-content {
+  border-top: 1px solid $pismo-lighter-silver;
+  border-bottom: 1px solid $pismo-lighter-silver;
+}
+
+.modal-rounded-actions {
+  display: flex;
+  flex-direction: row;
+
+  button:first-of-type {
+    border-right: 1px solid $pismo-lighter-silver;
+  }
+}

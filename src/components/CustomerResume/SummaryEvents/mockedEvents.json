@@ -1,0 +1,517 @@
+{
+  "next_page": true,
+  "items": [
+    {
+      "type": "MDES",
+      "account_id": 19,
+      "category": "ACCEPTED",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-06-04T23:50:34.970",
+      "data": {
+        "item": {
+          "wallet": "APPLE_PAY"
+        }
+      },
+      "timestamp": "2018-06-04T23:50:34.970"
+    },
+    {
+      "type": "CARD",
+      "account_id": 19,
+      "category": "PRODUCTION",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-06-04T20:53:32.931Z",
+      "data": {
+        "item": {
+          "card_id": 883,
+          "name": "status do cartão",
+          "printed_name": "enviado para a produção."
+        }
+      },
+      "timestamp": "2018-06-04T20:53:32.931Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "REFUSAL",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-26T19:20:31.904",
+      "data": {
+        "item": {
+          "contract_amount": 17.02,
+          "response_code": "51",
+          "installment_amount": 17.02,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2733061,
+          "principal_amount": 17.02,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 17.02,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 17.02,
+          "card_name": "UBER",
+          "id": 4009,
+          "settlement_currency_amount": 4.65
+        }
+      },
+      "timestamp": "2018-05-26T19:20:31.904"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "REFUSAL",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-25T04:30:59.008",
+      "data": {
+        "item": {
+          "contract_amount": 43.67,
+          "response_code": "51",
+          "installment_amount": 43.67,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2744839,
+          "principal_amount": 43.67,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 43.67,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 43.67,
+          "card_name": "UBER",
+          "id": 3958,
+          "settlement_currency_amount": 11.99
+        }
+      },
+      "timestamp": "2018-05-25T04:30:59.008"
+    },
+    {
+      "type": "STATEMENT",
+      "account_id": 19,
+      "category": "CLOSE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-23T18:30:00",
+      "data": {
+        "item": {
+          "credits": 189.95,
+          "debits": 493.66,
+          "cycle_closing_date": "2018-05-23",
+          "payment_status": "NOT_PAID",
+          "name": "May",
+          "due_date": "2018-05-28",
+          "minimum_payment": 73.9,
+          "statement": {
+            "id": 390
+          },
+          "current_balance": 493.66,
+          "previous_balance": 189.95
+        },
+        "value": "Statement closed"
+      },
+      "timestamp": "2018-05-23T18:30:00"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-23T11:59:00",
+      "data": {
+        "item": {
+          "contract_amount": 1,
+          "soft_descriptor": "Mensalidade",
+          "local_amount": 1,
+          "principal_amount": 1,
+          "cardholderbilling_amount": 1,
+          "currency_code": 986
+        },
+        "value": "Mensalidade"
+      },
+      "timestamp": "2018-05-23T11:59:00"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-21T18:54:41.577",
+      "data": {
+        "item": {
+          "contract_amount": 3.9,
+          "response_code": "00",
+          "installment_amount": 3.9,
+          "merchant_category_code": "059840129      ",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.267326,
+          "principal_amount": 3.9,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 3.9,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "CUBO CAFETERIA         ",
+          "local_amount": 3.9,
+          "card_name": "APPLE PAY",
+          "id": 3809,
+          "settlement_currency_amount": 1.04
+        }
+      },
+      "timestamp": "2018-05-21T18:54:41.577"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-21T12:58:21.924",
+      "data": {
+        "item": {
+          "contract_amount": 22.89,
+          "response_code": "00",
+          "installment_amount": 22.89,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.267326,
+          "principal_amount": 22.89,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 22.89,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 22.89,
+          "card_name": "UBER",
+          "id": 3801,
+          "settlement_currency_amount": 6.12
+        }
+      },
+      "timestamp": "2018-05-21T12:58:21.924"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T23:50:47.586",
+      "data": {
+        "item": {
+          "contract_amount": 120,
+          "response_code": "00",
+          "installment_amount": 120,
+          "merchant_category_code": "010531930570001",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2709806,
+          "principal_amount": 120,
+          "card_type": "TEMPORARY",
+          "currency_code": "986",
+          "cardholderbilling_amount": 120,
+          "settlement_currency_code": "840",
+          "pre_authorization": true,
+          "soft_descriptor": "MERCPAGO               ",
+          "local_amount": 120,
+          "card_name": "MELI",
+          "id": 3775,
+          "settlement_currency_amount": 32.52
+        }
+      },
+      "timestamp": "2018-05-18T23:50:47.586"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T23:36:59.088",
+      "data": {
+        "item": {
+          "contract_amount": 14.68,
+          "response_code": "00",
+          "installment_amount": 14.68,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2709806,
+          "principal_amount": 14.68,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 14.68,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 14.68,
+          "card_name": "UBER",
+          "id": 3774,
+          "settlement_currency_amount": 3.98
+        }
+      },
+      "timestamp": "2018-05-18T23:36:59.088"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T16:30:33.356",
+      "data": {
+        "item": {
+          "contract_amount": 8.33,
+          "response_code": "00",
+          "installment_amount": 8.33,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2709806,
+          "principal_amount": 8.33,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 8.33,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 8.33,
+          "card_name": "UBER",
+          "id": 3759,
+          "settlement_currency_amount": 2.26
+        }
+      },
+      "timestamp": "2018-05-18T16:30:33.356"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "CANCELLATION",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T01:39:00.613",
+      "data": {
+        "item": {
+          "response_code": "00",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 27.53,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.27,
+          "currency_code": "986",
+          "settlement_currency_amount": 7.48,
+          "cardholderbilling_amount": 27.53,
+          "settlement_currency_code": "840"
+        }
+      },
+      "timestamp": "2018-05-18T01:39:00.613"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T01:38:05.081",
+      "data": {
+        "item": {
+          "contract_amount": 28.57,
+          "response_code": "00",
+          "installment_amount": 28.57,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2716099,
+          "principal_amount": 28.57,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 28.57,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 28.57,
+          "card_name": "UBER",
+          "id": 3739,
+          "settlement_currency_amount": 7.76
+        }
+      },
+      "timestamp": "2018-05-18T01:38:05.081"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-18T01:03:09.646",
+      "data": {
+        "item": {
+          "contract_amount": 27.53,
+          "response_code": "00",
+          "installment_amount": 27.53,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2716099,
+          "principal_amount": 27.53,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 27.53,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 27.53,
+          "card_name": "UBER",
+          "id": 3737,
+          "settlement_currency_amount": 7.48
+        }
+      },
+      "timestamp": "2018-05-18T01:03:09.646"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-17T22:27:29.799",
+      "data": {
+        "item": {
+          "contract_amount": 19.99,
+          "response_code": "00",
+          "installment_amount": 19.99,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2716099,
+          "principal_amount": 19.99,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 19.99,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 19.99,
+          "card_name": "UBER",
+          "id": 3730,
+          "settlement_currency_amount": 5.43
+        }
+      },
+      "timestamp": "2018-05-17T22:27:29.799"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-17T14:02:16.403",
+      "data": {
+        "item": {
+          "contract_amount": 4.5,
+          "response_code": "00",
+          "installment_amount": 4.5,
+          "merchant_category_code": "059840129      ",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2726355,
+          "principal_amount": 4.5,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 4.5,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "CUBO CAFETERIA         ",
+          "local_amount": 4.5,
+          "card_name": "APPLE PAY",
+          "id": 3620,
+          "settlement_currency_amount": 1.23
+        }
+      },
+      "timestamp": "2018-05-17T14:02:16.403"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-17T13:10:09.831",
+      "data": {
+        "item": {
+          "contract_amount": 13.5,
+          "response_code": "00",
+          "installment_amount": 13.5,
+          "merchant_category_code": "059840129      ",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2726355,
+          "principal_amount": 13.5,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 13.5,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "CUBO CAFETERIA         ",
+          "local_amount": 13.5,
+          "card_name": "APPLE PAY",
+          "id": 3617,
+          "settlement_currency_amount": 3.68
+        }
+      },
+      "timestamp": "2018-05-17T13:10:09.831"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-17T12:30:41.281",
+      "data": {
+        "item": {
+          "contract_amount": 28.79,
+          "response_code": "00",
+          "installment_amount": 28.79,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2726355,
+          "principal_amount": 28.79,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 28.79,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 28.79,
+          "card_name": "UBER",
+          "id": 3611,
+          "settlement_currency_amount": 7.85
+        }
+      },
+      "timestamp": "2018-05-17T12:30:41.281"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-16T19:41:00.943",
+      "data": {
+        "item": {
+          "contract_amount": 4.25,
+          "response_code": "00",
+          "installment_amount": 4.25,
+          "merchant_category_code": "043938183      ",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2726355,
+          "principal_amount": 4.25,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 4.25,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "SODEXO 6845            ",
+          "local_amount": 4.25,
+          "card_name": "APPLE PAY",
+          "id": 3603,
+          "settlement_currency_amount": 1.16
+        }
+      },
+      "timestamp": "2018-05-16T19:41:00.943"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 19,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-c9cccb07-41f7-493c-b796-60cc880bff4f::19::2018-05-15T23:25:09.833",
+      "data": {
+        "item": {
+          "contract_amount": 14.91,
+          "response_code": "00",
+          "installment_amount": 14.91,
+          "merchant_category_code": "539601000000205",
+          "number_of_installments": 1,
+          "settlement_currency_rate": 0.2760029,
+          "principal_amount": 14.91,
+          "card_type": "CARD_ON_FILE",
+          "currency_code": "986",
+          "cardholderbilling_amount": 14.91,
+          "settlement_currency_code": "840",
+          "pre_authorization": false,
+          "soft_descriptor": "Uber Do Brasil Tecnolo ",
+          "local_amount": 14.91,
+          "card_name": "UBER",
+          "id": 3581,
+          "settlement_currency_amount": 4.12
+        }
+      },
+      "timestamp": "2018-05-15T23:25:09.833"
+    }
+  ],
+  "per_page": 20,
+  "current_page": 1
+}

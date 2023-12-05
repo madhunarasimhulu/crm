@@ -1,0 +1,18 @@
+.CustomerSearchResultItem {
+  // border: 1px solid $pismo-mid-gray;
+  // border-width: 0 0 1px 0;
+
+  &.active,
+  &:hover {
+    .f7 {
+      color: #fafafa !important;
+    }
+  }
+  &:hover {
+    color: #fafafa;
+    background-color: #2c3644;
+  }
+  .m0-mr-auto {
+    margin: 0 0 0 auto;
+  }
+}

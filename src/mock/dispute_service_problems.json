@@ -1,0 +1,147 @@
+[
+  {
+    "type": "OPTION",
+    "text": "O serviço **foi prestado?**",
+    "options": [
+      {
+        "text": "Sim",
+        "next": 1
+      },
+      {
+        "text": "Não",
+        "next": 10
+      }
+    ]
+  },
+  {
+    "type": "OPTION",
+    "text": "Qual o problema com o serviço **foi prestado?**",
+    "options": [
+      {
+        "text": "não autorizei a renovação do serviço",
+        "next": 2
+      },
+      {
+        "text": "já cancelei ou quero cancelar o serviço",
+        "next": 8
+      },
+      {
+        "text": "tive problema com a qualidade do serviço",
+        "next": 9
+      },
+      {
+        "text": "o serviço não confere com a descrição",
+        "next": 9
+      }
+    ]
+  },
+  {
+    "type": "DATE",
+    "text": "Qual a **data de termino** do serviço contratado?",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "DESCRIPTION",
+    "text": "**Descreva o serviço contratado.** Aqui é importante você detalhar ao máximo.",
+    "options": [],
+    "next": 4
+  },
+  {
+    "type": "OPTION",
+    "text": "Você **tentou contato com o estabelecimento** para resolver o problema?",
+    "options": [
+      {
+        "text": "enviei um e-mail",
+        "next": 5
+      },
+      {
+        "text": "fui pessoalmente responder",
+        "next": 5
+      },
+      {
+        "text": "entrei em contato via chat",
+        "next": 5
+      },
+      {
+        "text": "não tentei",
+        "next": 6
+      }
+    ]
+  },
+  {
+    "type": "OPTION",
+    "text": "Qual a **resposta do estabelecimento**?",
+    "options": [
+      {
+        "text": "negou a solicitação",
+        "next": 6
+      },
+      {
+        "text": "atendeu o contato",
+        "next": 6
+      },
+      {
+        "text": "não atendeu o contato",
+        "next": 6
+      }
+    ]
+  },
+  {
+    "type": "CAMERA",
+    "text": "Para continuar, **precisamos de um documento que comprove o problema que você está nos reportando**\nEsses documentos podem ser e-mails, fotos do produto, fotos do comprovantes de compra. É importante conter seus dados e os dados do estabelecimento",
+    "options": [],
+    "next": 7
+  },
+  {
+    "type": "SUCCESS",
+    "text": "Vamos analizar o seu caso e entrar em contato por e-mail. Voltamos em breve com mais informações.",
+    "options": []
+  },
+  {
+    "type": "DATE",
+    "text": "Quando você cancelou o serviço contratado? Caso ainda não tenha cancelado, utilize a data de hoje.",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "DATE",
+    "text": "**Quando o serviço foi prestado?**",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "OPTION",
+    "text": "Por que o serviço não foi prestado",
+    "options": [
+      {
+        "text": "já cancelei ou quero cancelar o serviço",
+        "next": 8
+      },
+      {
+        "text": "o prazo de contratação expirou",
+        "next": 11
+      },
+      {
+        "text": "o estabelecimento não existe mais",
+        "next": 12
+      },
+      {
+        "text": "não compareci e me cobraram",
+        "next": 11
+      }
+    ]
+  },
+  {
+    "type": "DATE",
+    "text": "**Qual era a data que o serviço deveria ser prestado?**",
+    "options": [],
+    "next": 3
+  },
+  {
+    "type": "DATE",
+    "text": "**Quando você descobriu que o estabelecimento não existia mais?**",
+    "options": [],
+    "next": 3
+  }
+]

@@ -1,0 +1,67 @@
+@import '../../../App/colors.scss';
+
+.loading {
+  color: transparent !important;
+  min-height: 0.8rem;
+  pointer-events: none;
+  position: relative;
+}
+
+.loading::after {
+  animation: loading 500ms infinite linear;
+  animation-name: loading;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-delay: initial;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-fill-mode: initial;
+  animation-play-state: initial;
+  border: 0.1rem solid $pismo-dark-blue;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: '';
+  display: block;
+  height: 0.8rem;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.4rem;
+  margin-top: -0.4rem;
+  position: absolute;
+  width: 0.8rem;
+  z-index: 1;
+}
+
+.loading.loading-lg {
+  min-height: 2rem;
+}
+
+.loading.loading-lg::after {
+  height: 1.6rem;
+  margin-left: -0.8rem;
+  margin-top: -0.8rem;
+  width: 1.6rem;
+}
+
+.loading.loading-xs {
+  min-height: 0.9rem;
+  transform: scale(0.5);
+}
+
+.loading.loading-sm {
+  transform: scale(0.8);
+}
+
+.loading.loading-xl {
+  transform: scale(1);
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

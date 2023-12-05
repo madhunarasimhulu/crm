@@ -1,0 +1,32 @@
+[
+  {
+    "card_status": "ACTIVE",
+    "last_4_digits": "0007",
+    "printed_name": "dinossauro da silva pismo",
+    "creation_date": "2018-11-05T16:51:20.000Z",
+    "card_name": "AEHO",
+    "card_profile": "",
+    "uuid": "839898b8-7097-45c3-b3aa-2d95c599att",
+    "network": "VISA"
+  },
+  {
+    "card_status": "SUSPENDED",
+    "last_4_digits": "0007",
+    "printed_name": "dinossauro da silva pismo",
+    "creation_date": "2018-11-05T16:51:20.000Z",
+    "card_name": "VIVA PISMO",
+    "card_profile": "",
+    "uuid": "pandini-7097-45c3-b3aa-2d95af9attff",
+    "network": "TICKET"
+  },
+  {
+    "card_status": "SUSPENDED",
+    "last_4_digits": "0007",
+    "printed_name": "dinossauro da silva pismo",
+    "creation_date": "2018-11-05T16:51:20.000Z",
+    "card_name": "AE PANDINI",
+    "card_profile": "",
+    "uuid": "pandini-mc-7097-45c3-b3aa-2d95c599a",
+    "network": "MASTERCARD"
+  }
+]

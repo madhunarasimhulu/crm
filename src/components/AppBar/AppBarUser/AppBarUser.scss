@@ -1,0 +1,35 @@
+@import '../../../App/colors.scss';
+
+.AppBarUser {
+  .user-btn {
+    color: $pismo-silver;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .lang-menu-li {
+    overflow: hidden;
+  }
+  .lang-menu-true {
+    max-height: 171px;
+    opacity: 1;
+    transition: all 0.25s ease-in;
+  }
+  .lang-menu-false {
+    opacity: 0;
+    max-height: 0px;
+    transition: all 0.25s ease-in;
+  }
+  .label-dropdown{
+    font-size: 14px;
+    cursor: pointer;
+    @media screen and (max-width : 900px){
+      font-size: 11px;
+      cursor: pointer;
+    }
+  }
+  .dropDown-blckd-style{
+    pointer-events:none;
+    background-color:#e6e6e6;
+                          
+  }
+}

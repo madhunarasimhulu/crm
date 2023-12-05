@@ -1,0 +1,89 @@
+.account-blocked-modal {
+  margin-top: 40px;
+  .account-blocked-container {
+    position: absolute;
+    background: #fafafa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4;
+    padding-top: 14px;
+    min-width: 350px;
+    max-height: 90%;
+    .account-blocked-title-lg {
+      padding: 32px 32px 0px 32px;
+    }
+    .modalText {
+      color: #777777;
+      margin-bottom: 1.5rem;
+      text-align: justify;
+      margin: 16px;
+    }
+    .btn {
+      margin: 16px 0px 0px;
+      border-radius: 0px;
+    }
+  }
+  .account-blocked-popup {
+    position: absolute;
+    background: #fafafa;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4;
+    padding-top: 14px;
+    width: 100%;
+    max-width: 90%;
+    // min-width: 550px;
+    // max-height: 90%;
+    @media screen and (max-width: 580px) {
+      width: 100%;
+      max-width: 90%;
+      // min-width: 440px;
+      padding: 10px;
+    }
+    @media screen and (min-width: 581px) {
+      max-width: 530px;
+      padding: 10px;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      max-width: 440px;
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 380px) {
+      width: 100%;
+      max-width: 340px;
+      padding: 10px;
+    }
+    .account-blocked-title-lg-p {
+      padding: 32px 32px 0px 32px;
+      margin-bottom: 20px;
+      @media screen and (max-width: 900px) {
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+    .modalText1 {
+      color: #bbbac1;
+      margin-bottom: 15px;
+      margin-top: 40px;
+      text-align: justify;
+      // margin: 20px;
+      font-size: 19px;
+    }
+    .modalText2 {
+      color: #787878;
+      margin-bottom: 60px;
+      text-align: justify;
+      // margin: 30px;
+      font-size: 18px;
+    }
+  }
+}
+.account-blocked-close-icon {
+  all: unset;
+  float: right;
+}

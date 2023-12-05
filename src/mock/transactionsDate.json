@@ -1,0 +1,211 @@
+{
+  "totalItems": 5,
+  "perPage": 999,
+  "pages": 1,
+  "currentPage": 1,
+  "items": [
+    {
+      "merchant": {
+        "id": null,
+        "name": "PAO DE ACUCAR LJ 1201  ",
+        "city": "SAO PAULO    ",
+        "state": "BRA",
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 9009,
+        "is_credit": false,
+        "soft_descriptor": "PAO DE ACUCAR LJ 1201   SAO PAULO      BRA",
+        "mcc": {
+          "code": "5411",
+          "description": "Grocery Stores, Supermarkets",
+          "group_name": "supermercado"
+        },
+        "entry_mode": "CHIP",
+        "amount": 57.27,
+        "reference_amount": 11.27,
+        "local_amount": 57.27,
+        "local_currency": "BRL",
+        "currency_code": "986",
+        "installment": 1,
+        "number_of_installments": 1,
+        "type": "COMPRA A VISTA",
+        "type_code": 101,
+        "event_date": "2020-03-26T21:52:08Z",
+        "event_date_utc": "2020-03-27T00:52:09Z",
+        "is_disputed": false,
+        "is_disputable": false,
+        "card_name": "RAFAEL HORTEGA",
+        "card_id": 342050,
+        "transference_current_account": null
+      },
+      "customer": {
+        "id": 329253,
+        "printed_name": "RAFAEL HORTEGA"
+      },
+      "transaction": {
+        "id": 555542,
+        "category": "supermercado",
+        "relateds": null
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": "MERCHANT CO. SÃO PAULO BRA",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 147769,
+        "is_credit": false,
+        "softDescriptor": null,
+        "mcc": {
+          "code": "0742",
+          "description": "Veterinary Services",
+          "groupName": "HEALTH"
+        },
+        "entryMode": "CHIP",
+        "referenceAmount": 150.2,
+        "amount": 150.2,
+        "localAmount": 150.2,
+        "localCurrency": "BRL",
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "COMPRA A VISTA",
+        "event_date": "2020-04-03T12:37:51Z",
+        "event_date_utc": "2020-04-03T15:37:51Z",
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 23946473,
+        "printedName": "Teste Name"
+      },
+      "transaction": {
+        "id": 14953838
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": "MERCHANT CO. SÃO PAULO BRA",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 147349,
+        "is_credit": false,
+        "softDescriptor": null,
+        "mcc": {
+          "code": "0742",
+          "description": "Veterinary Services",
+          "groupName": "HEALTH"
+        },
+        "entryMode": "CHIP",
+        "referenceAmount": 130.2,
+        "amount": 130.2,
+        "localAmount": 130.2,
+        "localCurrency": "BRL",
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "COMPRA A VISTA",
+        "event_date": "2020-04-02T15:21:33Z",
+        "event_date_utc": "2020-04-02T18:21:33Z",
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 23946473,
+        "printedName": "Teste Name"
+      },
+      "transaction": {
+        "id": 14953108
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": "MERCHANT CO. NEW YORK USA",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 147288,
+        "is_credit": false,
+        "softDescriptor": null,
+        "mcc": {
+          "code": "0742",
+          "description": "Veterinary Services",
+          "groupName": "HEALTH"
+        },
+        "entryMode": "CHIP",
+        "referenceAmount": 130.2,
+        "amount": 130.2,
+        "localAmount": 130.2,
+        "localCurrency": "BRL",
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "COMPRA A VISTA",
+        "event_date": "2020-03-31T11:03:25Z",
+        "event_date_utc": "2020-03-31T14:03:25Z",
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 23946473,
+        "printedName": "Teste Name"
+      },
+      "transaction": {
+        "id": 14947767
+      }
+    },
+    {
+      "merchant": {
+        "id": null,
+        "name": "TED CASH IN",
+        "city": null,
+        "state": null,
+        "business_category": {
+          "id": null
+        }
+      },
+      "authorization": {
+        "id": 12876394,
+        "is_credit": true,
+        "softDescriptor": null,
+        "mcc": null,
+        "entryMode": null,
+        "referenceAmount": null,
+        "amount": 1000000.0,
+        "localAmount": null,
+        "localCurrency": null,
+        "installment": 1,
+        "numberOfInstallments": 1,
+        "type": "TED CASH IN",
+        "event_date": "2020-03-31T11:02:37Z",
+        "event_date_utc": "2020-03-31T14:02:37Z",
+        "is_disputed": false,
+        "is_disputable": true
+      },
+      "customer": {
+        "id": 23946473,
+        "printedName": "Teste Name"
+      },
+      "transaction": {
+        "id": 14947766
+      }
+    }
+  ]
+}

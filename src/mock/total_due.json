@@ -1,0 +1,9 @@
+{
+  "principal_amount": 1000,
+  "interest_amount": 22.76,
+  "overdue_interest_amount": 1.74,
+  "fee": 34.96,
+  "payment_parameters": {
+    "minimum_payment": 5
+  }
+}

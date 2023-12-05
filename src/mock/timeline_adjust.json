@@ -1,0 +1,924 @@
+{
+  "next_page": true,
+  "items": [
+    {
+      "type": "ESTORNO JUROS DE MORA",
+      "account_id": 245647,
+      "category": "CREDIT",
+      "tenant_account_timestamp": "e4604c7c-f8bc-484a-934d-612b2fa9d378::ESTORNO JUROS DE MORA",
+      "data": {
+        "item": {
+          "transaction_id": 555665,
+          "amount": 0.84,
+          "is_disputable": false,
+          "description": "ESTORNO JUROS DE MORA"
+        }
+      },
+      "correlation_id": "e4604c7c-f8bc-484a-934d-612b2fa9d378",
+      "timestamp": "2020-03-27T18:32:50Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-20T20:29:11Z",
+      "data": {
+        "item": {
+          "contract_amount": 186.89,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "CHIP",
+          "number_of_installments": 1,
+          "principal_amount": 186.89,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 186.89,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "SUPERMARKET",
+          "soft_descriptor": "PANIFICADORA BIENAL    ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 186.89
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 8663,
+          "to_name": "PANIFICADORA BIENAL",
+          "installment_amount": 186.89,
+          "merchant_category_code": "010131520319200",
+          "settlement_currency_rate": 0.1932441,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.1932441,
+          "local_amount": 186.89,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "CHIP",
+          "settlement_currency_amount": 36.12
+        }
+      },
+      "correlation_id": "e8a6b9c0-d521-43d1-9a19-901c5177e6d5",
+      "timestamp": "2020-03-20T20:29:11Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-14T18:34:41.959Z",
+      "data": {
+        "item": {
+          "contract_amount": 503.19,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "CHIP",
+          "number_of_installments": 1,
+          "principal_amount": 503.19,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 503.19,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "SUPERMARKET",
+          "soft_descriptor": "EMPORIUM SAO PAULO     ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 503.19
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7862,
+          "to_name": "EMPORIUM SAO PAULO",
+          "installment_amount": 503.19,
+          "merchant_category_code": "014004291      ",
+          "settlement_currency_rate": 0.2059711,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2059711,
+          "local_amount": 503.19,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "CHIP",
+          "settlement_currency_amount": 103.64
+        }
+      },
+      "correlation_id": "664373a6-0208-4e4d-81d6-d42c0bc9f7cb",
+      "timestamp": "2020-03-14T18:34:41.959Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-12T15:00:32.502Z",
+      "data": {
+        "item": {
+          "contract_amount": 12.1,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 12.1,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 12.1,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 11Mar 09h48mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 12.1
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7252,
+          "to_name": "99* TAXI 11Mar 09h48mi",
+          "installment_amount": 12.1,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.21,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.21,
+          "local_amount": 12.1,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 2.55
+        }
+      },
+      "correlation_id": "0fc654c2-6292-4bb3-bb18-944d0efbf3e0",
+      "timestamp": "2020-03-12T15:00:32.502Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-12T15:00:32.429Z",
+      "data": {
+        "item": {
+          "contract_amount": 3,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 3,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 3,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 11Mar 07h37mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 3
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7240,
+          "to_name": "99* TAXI 11Mar 07h37mi",
+          "installment_amount": 3,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.21,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.21,
+          "local_amount": 3,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 0.63
+        }
+      },
+      "correlation_id": "0a589d67-5fd5-44a4-87f7-f88c287f64d8",
+      "timestamp": "2020-03-12T15:00:32.429Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-11T12:48:19.317Z",
+      "data": {
+        "item": {
+          "contract_amount": 12.1,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 12.1,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 12.1,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": true,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 11Mar 09h48mi ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 12.1
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7252,
+          "to_name": "99* TAXI 11Mar 09h48mi",
+          "installment_amount": 12.1,
+          "merchant_category_code": "539601000000056",
+          "settlement_currency_rate": 0.2105373,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2105373,
+          "local_amount": 12.1,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 2.55
+        }
+      },
+      "correlation_id": "0fc654c2-6292-4bb3-bb18-944d0efbf3e0",
+      "timestamp": "2020-03-11T12:48:19.317Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-11T10:37:44.077Z",
+      "data": {
+        "item": {
+          "contract_amount": 3,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 3,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 3,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": true,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 11Mar 07h37mi ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 3
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7240,
+          "to_name": "99* TAXI 11Mar 07h37mi",
+          "installment_amount": 3,
+          "merchant_category_code": "539601000000056",
+          "settlement_currency_rate": 0.2105373,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2105373,
+          "local_amount": 3,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 0.63
+        }
+      },
+      "correlation_id": "0a589d67-5fd5-44a4-87f7-f88c287f64d8",
+      "timestamp": "2020-03-11T10:37:44.077Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-10T15:00:30.112Z",
+      "data": {
+        "item": {
+          "contract_amount": 20,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 20,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 20,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 09Mar 08h07mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 20
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7002,
+          "to_name": "99* TAXI 09Mar 08h07mi",
+          "installment_amount": 20,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 20,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 4.31
+        }
+      },
+      "correlation_id": "2c94a5d3-f92e-4a9e-a03d-febc2e2415f2",
+      "timestamp": "2020-03-10T15:00:30.112Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-10T13:00:29.399Z",
+      "data": {
+        "item": {
+          "contract_amount": 18.9,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "CARDONFILE",
+          "number_of_installments": 1,
+          "principal_amount": 18.9,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 18.9,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 09Mar 08h42mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 18.9
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7008,
+          "to_name": "99* TAXI 09Mar 08h42mi",
+          "installment_amount": 18.9,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 18.9,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "CARDONFILE",
+          "settlement_currency_amount": 4.08
+        }
+      },
+      "correlation_id": "d402e284-a7f7-4fdd-a1d1-da660ab12be1",
+      "timestamp": "2020-03-10T13:00:29.399Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T15:00:29.392Z",
+      "data": {
+        "item": {
+          "contract_amount": 26,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 26,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 26,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 08Mar 15h02mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 26
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6903,
+          "to_name": "99* TAXI 08Mar 15h02mi",
+          "installment_amount": 26,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 26,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 5.61
+        }
+      },
+      "correlation_id": "203ff0a2-0e44-4884-97ca-1eb8035ae295",
+      "timestamp": "2020-03-09T15:00:29.392Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T13:00:28.583Z",
+      "data": {
+        "item": {
+          "contract_amount": 18.5,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 18.5,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 18.5,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TOP 07Mar 21h22min",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 18.5
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6853,
+          "to_name": "99* TOP 07Mar 21h22min",
+          "installment_amount": 18.5,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 18.5,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 4.02
+        }
+      },
+      "correlation_id": "74068ec6-25a6-4306-ada2-c4c569ebaaf9",
+      "timestamp": "2020-03-09T13:00:28.583Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T13:00:28.393Z",
+      "data": {
+        "item": {
+          "contract_amount": 17.7,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 17.7,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 17.7,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TOP 08Mar 01h08min",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 17.7
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6860,
+          "to_name": "99* TOP 08Mar 01h08min",
+          "installment_amount": 17.7,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 17.7,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 3.82
+        }
+      },
+      "correlation_id": "91855645-5991-43e5-872f-c1ee1fed544b",
+      "timestamp": "2020-03-09T13:00:28.393Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T11:42:01.603Z",
+      "data": {
+        "item": {
+          "contract_amount": 18.9,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "CARDONFILE",
+          "number_of_installments": 1,
+          "principal_amount": 18.9,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 18.9,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": true,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 09Mar 08h42mi ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 18.9
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7008,
+          "to_name": "99* TAXI 09Mar 08h42mi",
+          "installment_amount": 18.9,
+          "merchant_category_code": "539601000000056",
+          "settlement_currency_rate": 0.2157404,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2157404,
+          "local_amount": 18.9,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "CARDONFILE",
+          "settlement_currency_amount": 4.08
+        }
+      },
+      "correlation_id": "d402e284-a7f7-4fdd-a1d1-da660ab12be1",
+      "timestamp": "2020-03-09T11:42:01.603Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T11:07:50.573Z",
+      "data": {
+        "item": {
+          "contract_amount": 20,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 20,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 20,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": true,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 09Mar 08h07mi ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 20
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 7002,
+          "to_name": "99* TAXI 09Mar 08h07mi",
+          "installment_amount": 20,
+          "merchant_category_code": "539601000000056",
+          "settlement_currency_rate": 0.2157404,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2157404,
+          "local_amount": 20,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 4.31
+        }
+      },
+      "correlation_id": "2c94a5d3-f92e-4a9e-a03d-febc2e2415f2",
+      "timestamp": "2020-03-09T11:07:50.573Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T03:00:32.400Z",
+      "data": {
+        "item": {
+          "contract_amount": 15.3,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 15.3,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 15.3,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 06Mar 21h55mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 15.3
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6755,
+          "to_name": "99* TAXI 06Mar 21h55mi",
+          "installment_amount": 15.3,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 15.3,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 3.38
+        }
+      },
+      "correlation_id": "3af4f4df-5712-4c4b-abbb-d5512ed96c88",
+      "timestamp": "2020-03-09T03:00:32.400Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T03:00:31.394Z",
+      "data": {
+        "item": {
+          "contract_amount": 12.9,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 12.9,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 12.9,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 07Mar 11h56mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 12.9
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6792,
+          "to_name": "99* TAXI 07Mar 11h56mi",
+          "installment_amount": 12.9,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 12.9,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 2.8
+        }
+      },
+      "correlation_id": "c7ffcaf5-70fe-4643-b454-f425e61c3082",
+      "timestamp": "2020-03-09T03:00:31.394Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T03:00:30.575Z",
+      "data": {
+        "item": {
+          "contract_amount": 12.33,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 12.33,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 12.33,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 07Mar 16h22mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 12.33
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6830,
+          "to_name": "99* TAXI 07Mar 16h22mi",
+          "installment_amount": 12.33,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 12.33,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 2.68
+        }
+      },
+      "correlation_id": "045cea0a-9c38-4920-a6f1-a29d1010c231",
+      "timestamp": "2020-03-09T03:00:30.575Z"
+    },
+    {
+      "type": "CONFIRMATION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-09T03:00:30.394Z",
+      "data": {
+        "item": {
+          "contract_amount": 24.72,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 24.72,
+          "settlement_currency_literal": "BRL",
+          "currency_code": "986",
+          "cardholderbilling_amount": 24.72,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 07Mar 10h34mi",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 24.72
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6788,
+          "to_name": "99* TAXI 07Mar 10h34mi",
+          "installment_amount": 24.72,
+          "merchant_category_code": "0000",
+          "settlement_currency_rate": 0.22,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.22,
+          "local_amount": 24.72,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 5.37
+        }
+      },
+      "correlation_id": "4f6dd7ba-6498-4fdd-a57f-67ef49f52f57",
+      "timestamp": "2020-03-09T03:00:30.394Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-08T18:02:34.195Z",
+      "data": {
+        "item": {
+          "contract_amount": 26,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "ECOMMERCE",
+          "number_of_installments": 1,
+          "principal_amount": 26,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 26,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": true,
+          "merchant_category_group": "TRANSPORT",
+          "soft_descriptor": "99* TAXI 08Mar 15h02mi ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 26
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6903,
+          "to_name": "99* TAXI 08Mar 15h02mi",
+          "installment_amount": 26,
+          "merchant_category_code": "539601000000056",
+          "settlement_currency_rate": 0.2157404,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2157404,
+          "local_amount": 26,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "ECOMMERCE",
+          "settlement_currency_amount": 5.61
+        }
+      },
+      "correlation_id": "203ff0a2-0e44-4884-97ca-1eb8035ae295",
+      "timestamp": "2020-03-08T18:02:34.195Z"
+    },
+    {
+      "type": "TRANSACTION",
+      "account_id": 245647,
+      "category": "AUTHORIZE",
+      "tenant_account_timestamp": "TN-dc145162-c99b-478c-adc5-b98f6c3fd09d::245647::2020-03-08T16:02:39.366Z",
+      "data": {
+        "item": {
+          "contract_amount": 55.68,
+          "response_code": "00",
+          "org_operation": {
+            "processing_code": "00"
+          },
+          "entry_mode": "CONTACTLESS",
+          "number_of_installments": 1,
+          "principal_amount": 55.68,
+          "is_referral": false,
+          "settlement_currency_literal": "USD",
+          "currency_code": "986",
+          "cardholderbilling_amount": 55.68,
+          "settlement_currency_code": "840",
+          "network": "Mastercard",
+          "pre_authorization": false,
+          "merchant_category_group": "SUPERMARKET",
+          "soft_descriptor": "EMPORIUM SAO PAULO     ",
+          "installments": [
+            {
+              "date": "2020-03-28",
+              "amount": 55.68
+            }
+          ],
+          "currency_literal": "BRL",
+          "interest_rate": 0,
+          "id": 6884,
+          "to_name": "EMPORIUM SAO PAULO",
+          "installment_amount": 55.68,
+          "merchant_category_code": "014004291      ",
+          "settlement_currency_rate": 0.2157404,
+          "card_type": "PLASTIC",
+          "cardholder_currency_rate": 0.2157404,
+          "local_amount": 55.68,
+          "card_name": "BERNARDO C L GUSMAO",
+          "entry_mode_literal": "CONTACTLESS",
+          "settlement_currency_amount": 12.01
+        }
+      },
+      "correlation_id": "79fc3382-9c8f-4ca3-88ba-c50311bbcff1",
+      "timestamp": "2020-03-08T16:02:39.366Z"
+    }
+  ],
+  "per_page": 20,
+  "current_page": 1.0
+}
