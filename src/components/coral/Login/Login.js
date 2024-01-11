@@ -306,7 +306,7 @@ export default function Login() {
                   }}
                   className="Login_forgot_pwd"
                 >
-                  Forgot Password
+                  Forgo
                 </label>
               </Grid>
             </View>
